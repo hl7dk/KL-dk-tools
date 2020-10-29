@@ -7,10 +7,15 @@ Description: "Administrative/technical codes, not defined elsewhere, associated 
 * #228ee58f-5785-4364-a99c-8ba99943f510 "WHO-5 Lidt mindre end halvdelen af tiden (2)"
 * #c4002c8a-91c5-4737-bba6-ce364e83fd28 "WHO-5 Lidt af tiden (1)"
 * #d092cdf0-e4e0-4cf6-a506-0adf95f56a8d "WHO-5 På intet tidspunkt (0)"
-* #4a069078-c3c3-4c67-899d-4e8876026f48Ja "Proceduren fulgt" "Proceduren for observationen, som beskrevet af KL, er fulgt"
-* #17772b27-bc9d-4d62-9515-d268a98a3a27 "Proceduren ikke fulgt pga. delvis besvarelse/udførelse" "Proceduren for observationen, som beskrevet af KL, er ikke fulgt pga. delvis besvarelse/udførelse"
-* #a3231c9a-5569-49c4-8760-4fffbf0b2b80 "Proceduren ikke fulgt pga. afvigelse i test-setup/omgivelser" "Proceduren for observationen, som beskrevet af KL, er ikke fulgt pga. afvigelse i test-setup/omgivelser"
-
+* #4a069078-c3c3-4c67-899d-4e8876026f48Ja "Ingen problemer med test-setup og borgers udførelse" "Proceduren for observationen, som beskrevet af KL under test-setup og borgers udførelse, er fulgt"
+* #17772b27-bc9d-4d62-9515-d268a98a3a27 "Afvigelse i borgers udførelse" "Proceduren for observationen, som beskrevet af KL, er ikke fulgt pga. afvigelser i borgers udførelse"
+* #a3231c9a-5569-49c4-8760-4fffbf0b2b80 "Afvigelse i test-setup" "Proceduren for observationen, som beskrevet af KL, er ikke fulgt pga. afvigelse i test-setup"
+* #6713249a-433e-4b93-8975-0214a473dab5 "Afvigelse i borgers udførelse og test-setup" "Proceduren for observationen, som beskrevet af KL, er ikke fulgt pga. afvigelse i borgers udførelse og test-setup"
+* #a3d30bf2-4a3c-4c49-9001-5363ae11681c "Borger" "Borger har selv været kilde"
+* #71675b26-285e-4551-9488-991d8b34a12a "Borger støttet af pårørende" "Borger blev støttet af en pårørende"
+* #5937b533-a4e3-45af-9ddf-61dce1d56b74 "Borger støttet af medarbejder" "Borger blev støttet af medarbejder"
+* #d5762abe-706b-4d52-ac2b-2621c60486b2 "Pårørende alene" "En pårørende er kilde"
+* #111b2c8a-389d-4ecc-9187-ce78f019649b "Medarbejder alene" "En medarbejder er kilde"
 
 ValueSet: WHO5AnswerCodes
 Title: "WHO5AnswerCodes"
@@ -43,10 +48,16 @@ Description: "SNOMED CT findings when conducting WHO-5 questionaires"
 ValueSet: KLtechniquesCodes
 Title: "KLtechniquesCodes"
 Description: "Codes for the techniqe used when obtaining an observation"
-* KLToolsCodes#4a069078-c3c3-4c67-899d-4e8876026f48Ja "Proceduren fulgt"
-* KLToolsCodes#17772b27-bc9d-4d62-9515-d268a98a3a27 "Proceduren ikke fulgt pga. delvis besvarelse/udførelse" //761996005 |Estimation technique (qualifier value)| //733985002 |Reported (qualifier value)|
-* KLToolsCodes#a3231c9a-5569-49c4-8760-4fffbf0b2b80 "Proceduren ikke fulgt pga. afvigelse i test-setup/omgivelser"
+* KLToolsCodes#4a069078-c3c3-4c67-899d-4e8876026f48Ja //"Ingen problemer med test-setup og borgers udførelse"
+* KLToolsCodes#17772b27-bc9d-4d62-9515-d268a98a3a27 //"Afvigelser i borgers udførelse" //761996005 |Estimation technique (qualifier value)| //733985002 |Reported (qualifier value)|
+* KLToolsCodes#a3231c9a-5569-49c4-8760-4fffbf0b2b80 //"afvigelse i test-setup"
+* KLToolsCodes#6713249a-433e-4b93-8975-0214a473dab5 //"Afvigelse i borgers udførelse og test-setup"
 
 ValueSet: FindingInformerCodes 
 Title: "FindingInformerCodes"
 Description: "Codes for who informed the findings"
+* KLToolsCodes#a3d30bf2-4a3c-4c49-9001-5363ae11681c "Borger"
+* KLToolsCodes#71675b26-285e-4551-9488-991d8b34a12a "Borger støttet af pårørende"
+* KLToolsCodes#5937b533-a4e3-45af-9ddf-61dce1d56b74 "Borger støttet af medarbejder"
+* KLToolsCodes#d5762abe-706b-4d52-ac2b-2621c60486b2 "Pårørende alene"
+* KLToolsCodes#111b2c8a-389d-4ecc-9187-ce78f019649b "Medarbejder alene"
