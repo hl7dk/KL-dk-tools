@@ -1,0 +1,27 @@
+# ╭──────────────────────────────────────ImplementationGuide───────────────────────────────────────╮
+# │  The properties below are used to create the ImplementationGuide resource. For a list of       │
+# │  supported properties, see: https://fshschool.org/sushi/configuration/                         │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+id: dk.fhir.ig.kl.tools.care
+canonical: http://kl.dk/fhir/tools/care
+name: municipalityTools
+status: draft
+version: 0.1.1
+fhirVersion: 4.0.1
+dependencies:
+  dk.fhir.ig.kl.common.caresocial: current
+  dk.fhir.ig.dk-core: current    
+copyrightYear: 2020+
+releaseLabel: ci-build
+
+# ╭─────────────────────────────────────────────ig.ini─────────────────────────────────────────────╮
+# │  To use a provided ig-data/ig.ini file, delete the "template" property below.                  │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+template: fhir.base.template#current
+
+# ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
+# │  To use a provided ig-data/input/includes/menu.xml file, delete the "menu" property below.     │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+menu:
+  Home: index.html
+  Artifacts: artifacts.html
