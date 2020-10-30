@@ -38,26 +38,59 @@ Description: "Observation codes used to specify each item in a WHO-5 questionair
 ValueSet: WHO5SCTfindings
 Title: "WHO5SCTfindings"
 Description: "SNOMED CT findings when conducting WHO-5 questionaires"
-* SCT#160245001  "No current problems or disability"
-* SCT#420038007 "Feeling unhappy"
-* SCT#49971008 "ængstelse"
-* SCT#248274002 "manglende energi"
-* SCT#267032009 "træt altid"
-* SCT#20602000 "Ligegyldighed"
+* SCT#160245001  //"No current problems or disability"
+* SCT#420038007 //"Feeling unhappy"
+* SCT#49971008 //"ængstelse"
+* SCT#248274002 //"manglende energi"
+* SCT#267032009 //"træt altid"
+* SCT#20602000 //"Ligegyldighed"
+
+ValueSet: WHO5SCTfindingsHappy1
+Title: "WHO5SCTfindingsHappy1"
+Description: "SNOMED CT findings when conducting WHO-5 questionaires, question 1"
+* SCT#160245001  //"No current problems or disability"
+* SCT#420038007 //"Feeling unhappy"
+
+ValueSet: WHO5SCTfindingsCalm2
+Title: "WHO5SCTfindingsCalm2"
+Description: "SNOMED CT findings when conducting WHO-5 questionaires, question 2"
+* SCT#160245001  //"No current problems or disability"
+* SCT#49971008 //"ængstelse"
+
+ValueSet: WHO5SCTfindingsActive3
+Title: "WHO5SCTfindingsActive3"
+Description: "SNOMED CT findings when conducting WHO-5 questionaires, question 3"
+* SCT#160245001  //"No current problems or disability"
+* SCT#248274002 //"manglende energi"
+
+ValueSet: WHO5SCTfindingsRested4
+Title: "WHO5SCTfindingsRested4"
+Description: "SNOMED CT findings when conducting WHO-5 questionaires, question 4"
+* SCT#160245001  //"No current problems or disability"
+* SCT#267032009 //"træt altid"
+
+ValueSet: WHO5SCTfindingsInterest5
+Title: "WHO5SCTfindingsInterest5"
+Description: "SNOMED CT findings when conducting WHO-5 questionaires, question 5"
+* SCT#160245001  //"No current problems or disability"
+* SCT#20602000 //"Ligegyldighed"
+
+
+
 
 ValueSet: KLtechniquesCodes
 Title: "KLtechniquesCodes"
 Description: "Codes for the techniqe used when obtaining an observation"
 * KLToolsCodes#4a069078-c3c3-4c67-899d-4e8876026f48Ja //"Ingen problemer med test-setup og borgers udførelse"
 * KLToolsCodes#17772b27-bc9d-4d62-9515-d268a98a3a27 //"Afvigelser i borgers udførelse" //761996005 |Estimation technique (qualifier value)| //733985002 |Reported (qualifier value)|
-* KLToolsCodes#a3231c9a-5569-49c4-8760-4fffbf0b2b80 //"afvigelse i test-setup"
+* KLToolsCodes#a3231c9a-5569-49c4-8760-4fffbf0b2b80 //"Afvigelse i test-setup"
 * KLToolsCodes#6713249a-433e-4b93-8975-0214a473dab5 //"Afvigelse i borgers udførelse og test-setup"
 
 ValueSet: FindingInformerCodes 
 Title: "FindingInformerCodes"
 Description: "Codes for who informed the findings"
-* KLToolsCodes#a3d30bf2-4a3c-4c49-9001-5363ae11681c "Borger"
-* KLToolsCodes#71675b26-285e-4551-9488-991d8b34a12a "Borger støttet af pårørende"
-* KLToolsCodes#5937b533-a4e3-45af-9ddf-61dce1d56b74 "Borger støttet af medarbejder"
-* KLToolsCodes#d5762abe-706b-4d52-ac2b-2621c60486b2 "Pårørende alene"
-* KLToolsCodes#111b2c8a-389d-4ecc-9187-ce78f019649b "Medarbejder alene"
+* KLToolsCodes#a3d30bf2-4a3c-4c49-9001-5363ae11681c // "Borger"
+* KLToolsCodes#71675b26-285e-4551-9488-991d8b34a12a //"Borger støttet af pårørende"
+* KLToolsCodes#5937b533-a4e3-45af-9ddf-61dce1d56b74 //"Borger støttet af medarbejder"
+* KLToolsCodes#d5762abe-706b-4d52-ac2b-2621c60486b2 //"Pårørende alene"
+* KLToolsCodes#111b2c8a-389d-4ecc-9187-ce78f019649b //"Medarbejder alene"

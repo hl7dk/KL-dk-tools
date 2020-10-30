@@ -11,3 +11,10 @@ Description: "Extension for pointing to Condition codes, for which the observati
 * value[x] 1..1
 * value[x] only CodeableConcept
 * value[x] from SCTConditionCodes
+
+Extension: Technique
+Title: "Technique"
+Description: "Extension for pointing to the techniqe used to obtain the result of a questionaire"
+* value[x] 1..1
+* value[x] only CodeableConcept
+* value[x] from KLtechniquesCodes

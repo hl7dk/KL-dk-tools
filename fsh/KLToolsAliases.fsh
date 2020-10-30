@@ -12,3 +12,4 @@ Alias:          KLCommonCareSocialCodes = http://kl.dk/fhir/common/caresocial/Co
 Alias:          SCTConditionCodes = http://hl7.org/fhir/ValueSet/condition-code
 Alias:          LOINC = http://loinc.org
 Alias:          UCUM = http://unitsofmeasure.org
+Alias:          KLCommonproprietaryObservation = http://kl.dk/fhir/common/caresocial/CodeSystem/KLCommonproprietaryObservation 

@@ -11,7 +11,7 @@ The citizen has performed the test without the use af walking aids or other phys
 The Observation.code is fixed to the SNOMED CT code 165263003 "Walking distance (observable entity)"
 and the more precise LOINC code 64098-7 "Walking distance 6 minutes"
 
-Observation.value[x] is of type Observation.valueQuantity, it should contain be a positive decimal in Observation.valueQuantity.value, and use the UCUM unit for meter.
+Observation.value[x] is of type Observation.valueQuantity. It should contain a positive decimal in Observation.valueQuantity.value, and use the UCUM unit for meter.
 
 Observation.method holds information about whether the "Test-setup" and "Citizen performance" have met the procedure-standards as described by KL, which are summarized above in English.
 

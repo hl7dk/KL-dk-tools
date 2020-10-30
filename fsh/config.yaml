@@ -5,6 +5,8 @@
 id: dk.fhir.ig.kl.tools.care
 canonical: http://kl.dk/fhir/tools/care
 name: municipalityTools
+title: "Implementation Guide for værktøjsprojektet"
+description: Danish municipalities implementation guide for værktøjsprojektet
 status: draft
 version: 0.1.1
 fhirVersion: 4.0.1
@@ -13,6 +15,14 @@ dependencies:
   dk.fhir.ig.dk-core: current    
 copyrightYear: 2020+
 releaseLabel: ci-build
+date: 2020-10-30
+
+publisher:
+  name: Kommunernes landsforening
+  url: http://kl.dk
+  email: kl@kl.dk
+
+jurisdiction: urn:iso:std:iso:3166#DNK "Denmark"
 
 # ╭─────────────────────────────────────────────ig.ini─────────────────────────────────────────────╮
 # │  To use a provided ig-data/ig.ini file, delete the "template" property below.                  │
