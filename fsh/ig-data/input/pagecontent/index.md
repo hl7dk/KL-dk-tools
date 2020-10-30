@@ -1,3 +1,2 @@
 # municipalityTools
-
-Feel free to modify this index page with your own awesome content!
+This implementation guide contains documentation for observations and questionaires, specified by Local Government Denmark (Kommunernes Landsforening).
