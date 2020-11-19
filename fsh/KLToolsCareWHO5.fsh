@@ -1,5 +1,5 @@
-Instance: WHO-5
-InstanceOf: Questionnaire
+Instance: KLToolsCareWHO-5
+InstanceOf: KLToolsQuestionnaire
 Usage: #definition
 Title: "WHO-5 questionnaire"
 * status = #draft
@@ -41,6 +41,11 @@ Title: "WHO-5 questionnaire"
 * item[4].answerValueSet = "http://kl.dk/fhir/tools/care/ValueSet/WHO5AnswerCodes"
 * item[4].code =  SCT#247752005 "Interesseniveau"
 * item[4].repeats = false
+
+* item[5].type = #text
+* item[5].text = "Kommentar til WHO5"
+* item[5].linkId = "who5comment"
+* item[5].repeats = false
 
 Instance: WHO-5AnswerMark
 InstanceOf: KLToolsQuestionaireResponse

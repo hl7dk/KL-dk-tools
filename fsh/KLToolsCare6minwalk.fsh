@@ -16,7 +16,15 @@ Description: "6 minutes walking test, as performed in Danish municipalities"
 * valueQuantity.code = #m
 * referenceRange.low.value = 0
 * method 1..1
-* method from KLtechniquesCodes (required)
+* method.coding ^slicing.discriminator.type = #value
+* method.coding ^slicing.discriminator.path = "system"
+* method.coding ^slicing.rules = #open
+* method.coding contains
+   KLCode 1..1 and SCTCode 0..1
+* method.coding[KLCode] from KLtechniquesCodes (required)
+* method.coding[KLCode].system = KLToolsCodeSystem
+* method.coding[SCTCode] from TechniqesSCTCodes (required)
+* method.coding[SCTCode].system = SCT
 * extension contains FindingInformer named findingInformer 1..1
 
 * code ^short = "[DK] 6MinutterGangKode"

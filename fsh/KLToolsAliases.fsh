@@ -13,3 +13,5 @@ Alias:          SCTConditionCodes = http://hl7.org/fhir/ValueSet/condition-code
 Alias:          LOINC = http://loinc.org
 Alias:          UCUM = http://unitsofmeasure.org
 Alias:          KLCommonproprietaryObservation = http://kl.dk/fhir/common/caresocial/CodeSystem/KLCommonproprietaryObservation 
+Alias:          ExtMinValue = http://hl7.org/fhir/StructureDefinition/minValue
+Alias:          ExtMaxValue = http://hl7.org/fhir/StructureDefinition/maxValue
