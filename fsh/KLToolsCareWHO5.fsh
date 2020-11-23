@@ -11,14 +11,14 @@ Title: "WHO-5 questionnaire"
 * item[0].text = "I de sidste 2 uger har jeg været glad og i godt humør"
 * item[0].linkId = "1"
 * item[0].answerValueSet = "http://kl.dk/fhir/tools/care/ValueSet/WHO5AnswerCodes"
-* item[0].code =  SCT#85256008 "Sindsstemning"
+* item[0].code =  SCT#285854004 //|Emotion (observable entity)|
 * item[0].repeats = false
 
 * item[1].type = #choice
 * item[1].text = "I de sidste 2 uger har jeg følt mig rolig og afslappet"
 * item[1].linkId = "2"
 * item[1].answerValueSet = "http://kl.dk/fhir/tools/care/ValueSet/WHO5AnswerCodes"
-* item[1].code =  SCT#85256008 "Sindsstemning"
+* item[1].code = SCT#285854004 //|Emotion (observable entity)|
 * item[1].repeats = false
 
 * item[2].type = #choice

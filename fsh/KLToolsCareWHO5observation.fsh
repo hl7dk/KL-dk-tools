@@ -13,9 +13,9 @@ Description: "WHO5 observation, for the first question about feeling happy"
 * valueCodeableConcept.coding[KLToolsCode] from WHO5AnswerCodes (required)
 * valueCodeableConcept.coding[KLToolsCode].system = KLToolsCodeSystem
 
-* code = SCT#85256008 //"Sindsstemning"
+* code = SCT#285854004 //|Emotion (observable entity)|
 * valueCodeableConcept.coding[SCTCode] from WHO5SCTfindingsHappy1
-* extension[associatedConditions].valueCodeableConcept = SCT#106131003 //"fund vedr. sindsstemning"
+* extension[associatedConditions].valueCodeableConcept = SCT#106126000 //|fund vedr. emotionel tilstand|
 
 Profile: KLToolsWHO5ObservationCalm2
 Parent: KLToolsCareItemObservation
@@ -32,9 +32,9 @@ Description: "WHO5 observation, for the second question about feeling calm"
 * valueCodeableConcept.coding[KLToolsCode] from WHO5AnswerCodes (required)
 * valueCodeableConcept.coding[KLToolsCode].system = KLToolsCodeSystem
 
-* code = SCT#85256008 //"Sindsstemning"
+* code = SCT#285854004 //|Emotion (observable entity)|
 * valueCodeableConcept.coding[SCTCode] from WHO5SCTfindingsCalm2
-* extension[associatedConditions].valueCodeableConcept = SCT#106131003 //"fund vedr. sindsstemning"
+* extension[associatedConditions].valueCodeableConcept = SCT#106126000 // |fund vedr. emotionel tilstand|
 
 Profile: KLToolsWHO5ObservationActive3
 Parent: KLToolsCareItemObservation
@@ -103,7 +103,7 @@ InstanceOf: KLToolsWHO5ObservationCalm2
 Usage: #example
 Title: "MarksWHO5-2"
 Description: "Observation af Marks humør, som udtrykt i WHO5 spørgeskema"
-* code = SCT#85256008 "Sindsstemning"
+* code = SCT#285854004 //|Emotion (observable entity)|
 * subject = Reference(Mark)
 * performer = Reference(AbrahamFraAkutSygeplejen)
 * valueCodeableConcept.coding[SCTCode] = SCT#49971008 "ængstelse"
@@ -111,4 +111,4 @@ Description: "Observation af Marks humør, som udtrykt i WHO5 spørgeskema"
 * status = #final
 * method = KLToolsCodes#4a069078-c3c3-4c67-899d-4e8876026f48Ja "Ingen problemer med test-setup og borgers udførelse"
 * derivedFrom = Reference(WHO-5AnswerMark)
-* extension[associatedConditions].valueCodeableConcept = SCT#106131003 "fund vedr. sindsstemning"
+* extension[associatedConditions].valueCodeableConcept = SCT#106126000 //|fund vedr. emotionel tilstand|

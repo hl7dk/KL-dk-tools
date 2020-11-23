@@ -51,7 +51,6 @@ Description: "Codes used to specify WHO-5 answers"
 ValueSet: KLToolsItemObservationCodes
 Title: "KLToolsItemObservationCodes"
 Description: "Observation codes used to specify each item in a KL-questionaire"
-* SCT#85256008 //"Sindsstemning"
 * SCT#404949004 //"Hvilemønster"
 * SCT#406202006 //"Træk vedr. energi"
 * SCT#247752005 //"Interesseniveau"
@@ -66,8 +65,8 @@ ValueSet: WHO5SCTfindings
 Title: "WHO5SCTfindings"
 Description: "SNOMED CT findings when conducting WHO-5 questionaires"
 * SCT#160245001  //"No current problems or disability"
-* SCT#420038007 //"Feeling unhappy"
-* SCT#49971008 //"ængstelse"
+* SCT#366979004 //depressiv sindsstemning
+* SCT#48694002 // |Anxiety (finding)|
 * SCT#248274002 //"manglende energi"
 * SCT#267032009 //"træt altid"
 * SCT#20602000 //"Ligegyldighed"
@@ -76,13 +75,13 @@ ValueSet: WHO5SCTfindingsHappy1
 Title: "WHO5SCTfindingsHappy1"
 Description: "SNOMED CT findings when conducting WHO-5 questionaires, question 1"
 * SCT#160245001  //"No current problems or disability"
-* SCT#420038007 //"Feeling unhappy"
+* SCT#420038007 // depressiv sindsstemning
 
 ValueSet: WHO5SCTfindingsCalm2
 Title: "WHO5SCTfindingsCalm2"
 Description: "SNOMED CT findings when conducting WHO-5 questionaires, question 2"
 * SCT#160245001  //"No current problems or disability"
-* SCT#49971008 //"ængstelse"
+* SCT#48694002 // |Anxiety (finding)|
 
 ValueSet: WHO5SCTfindingsActive3
 Title: "WHO5SCTfindingsActive3"
@@ -269,3 +268,83 @@ ValueSet: BodyTemperatureSCTObservables
 Title: "TemperatureSCTObservables"
 Description: "SNOMED CT observables for temperature"
 * codes from system SCT where concept is-a #276885007 // Core Body temperature
+
+ValueSet: SCTUrinStix 
+Title: "SCTUrinStix"
+Description: "SNOMED CT observables for urin stix"
+//* SCT#363787002:704318007=118539007,370134009=123029007,704327008=122575003,246501002=702660003,370132008=30766002,246093002=43706004,704319004=78014005 //"Ascorbate [Mass/volume] in Urine by Test strip"
+//* SCT#363787002:704318007=118539007,370134009=123029007,704327008=122575003,246501002=702660003,246093002=79706000,370132008=30766002,704319004=78014005 //"Bilirubin.total [Mass/volume] in Urine by Test strip"
+//* SCT#363787002:704318007=118539007,370134009=123029007,704327008=122575003,246501002=702660003,246093002=15373003,370132008=30766002,704319004=78014005 //Creatinine [Mass/volume] in Urine by Test strip
+* SCT#271000000 //|Urine albumin measurement (procedure)|
+* SCT#313668003 //|Urine vitamin C measurement (procedure)|
+* SCT#252384001 //|Urine dipstick for bilirubin (procedure)|
+* SCT#271260009 //|Urine creatinine measurement (procedure)|
+* SCT#270894005 //|Urine dipstick for blood (procedure)|
+* SCT#269879003 //|Urine dipstick for glucose (procedure)|
+* SCT#275714003 //|Urine dipstick for hemoglobin (procedure)|
+* SCT#271347000 //|Measurement of ketones in urine using dipstick (procedure)|
+* SCT#252385000 //|Urine dipstick for leukocyte esterase (procedure)|
+* SCT#302791006 //|Urine dipstick for nitrite (procedure)|
+* SCT#271348005 //|Urine dipstick for pH (procedure)|
+* SCT#271346009 //|Urine dipstick for protein (procedure)|
+* SCT#252386004 //|Urine dipstick for specific gravity (procedure)|
+* SCT#167321001 //|Urine dipstick for urobilinogen (procedure)|
+* SCT#167381004 //|Urine luteinizing hormone measurement (procedure)|
+
+ValueSet: LOINCUrinStix
+Title: "LOINCUrinStix"
+Description: "SNOMED CT observables for urin stix"
+* LOINC#11218-5 //Microalbumin [Mass/volume] in Urine by Test strip - NPU17997
+* LOINC#5768-7 //Ascorbate [Mass/volume] in Urine by Test strip
+* LOINC#20505-4 //Bilirubin.total [Mass/volume] in Urine by Test strip
+* LOINC#30004-6 //Creatinine [Mass/volume] in Urine by Test strip - NPU04998
+* LOINC#20409-9 //Erythrocytes [#/volume] in Urine by Test strip – NPU04208 *
+* LOINC#5792-7 //Glucose [Mass/volume] in Urine by Test strip - NPU04207
+* LOINC#49137-3 //Hemoglobin [Mass/volume] in Urine by Test strip - NPU04208 *
+* LOINC#5797-6 //Ketones [Mass/volume] in Urine by Test strip - NPU10504
+* LOINC#20408-1 //Leukocytes [#/volume] in Urine by Test strip - NPU03987
+* LOINC#20407-3 //Nitrite [Mass/volume] in Urine by Test strip - NPU21578 (Indgår ofte i NPU14924)
+* LOINC#5803-2 //pH of Urine by Test strip - NPU02415
+* LOINC#5804-0 //Protein [Mass/volume] in Urine by Test strip - NPU03277
+* LOINC#5811-5 //Specific gravity of Urine by Test strip
+* LOINC#20405-7 //Urobilinogen [Mass/volume] in Urine by Test strip - NPU17997 U—Albumin; arb.k.(proc.) = ?
+* LOINC#15079-7 //Lutropin [Units/volume] in Urine
+
+ValueSet: NPUUrinStix
+Title: "NPUUrinStix"
+Description: "NPU observables for urin stix"
+* NPU#NPU14924 "U—Urin; egenskabsart(liste; stix; proc.)"
+* NPU#NPU10504 "U—Acetoacetat; arb.k.(proc.) = ?"
+* NPU#NPU17997 "U—Albumin; arb.k.(proc.) = ?"
+* NPU#NPU10506 "U—Bacterium, nitrit-producerende; arb.k.(proc.) = ?"
+* NPU#NPU01372 "U—Bilirubiner; arb.k.(proc.) = ?"
+* NPU#NPU03963 "U—Erythrocytter; arb.k.(proc.) = ?"
+* NPU#NPU04207 "U—Glucose; arb.k.(proc.) = ?"
+* NPU#NPU02415 "U—Hydrogen-ion; pH(proc.) = ?"
+* NPU#NPU04208 "U—Hæmoglobin; arb.k.(proc.) = ?"
+* NPU#NPU03987 "U—Leukocytter; arb.k.(proc.) = ?"
+* NPU#NPU21578 "U—Nitrit; arb.k.(proc.) = ?"
+* NPU#NPU04864 "U—Porphobilinogen; arb.k.(proc.) = ?"
+* NPU#NPU04206 "U—Protein; arb.k.(proc.) = ?"
+* NPU#NPU03694 "Pt—Urin; rel.massetæthed(20 °C/vand, 20 °C; proc.) = ?"
+* NPU#NPU03697 "U—Urobilinogen; arb.k.(proc.) = ?"
+
+
+CodeSystem: NPU
+Title: "NPU"
+Description: "NPUcodes used i danish municipalities"
+* #NPU14924 "U—Urin; egenskabsart(liste; stix; proc.)"
+* #NPU10504 "U—Acetoacetat; arb.k.(proc.) = ?"
+* #NPU17997 "U—Albumin; arb.k.(proc.) = ?"
+* #NPU10506 "U—Bacterium, nitrit-producerende; arb.k.(proc.) = ?"
+* #NPU01372 "U—Bilirubiner; arb.k.(proc.) = ?"
+* #NPU03963 "U—Erythrocytter; arb.k.(proc.) = ?"
+* #NPU04207 "U—Glucose; arb.k.(proc.) = ?"
+* #NPU02415 "U—Hydrogen-ion; pH(proc.) = ?"
+* #NPU04208 "U—Hæmoglobin; arb.k.(proc.) = ?"
+* #NPU03987 "U—Leukocytter; arb.k.(proc.) = ?"
+* #NPU21578 "U—Nitrit; arb.k.(proc.) = ?"
+* #NPU04864 "U—Porphobilinogen; arb.k.(proc.) = ?"
+* #NPU04206 "U—Protein; arb.k.(proc.) = ?"
+* #NPU03694 "Pt—Urin; rel.massetæthed(20 °C/vand, 20 °C; proc.) = ?"
+* #NPU03697 "U—Urobilinogen; arb.k.(proc.) = ?"
