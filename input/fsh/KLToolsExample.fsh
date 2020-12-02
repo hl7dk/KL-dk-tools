@@ -14,3 +14,12 @@ Description:    "Eksempel på medarbejderen Abraham fra akutsygeplejen"
 Usage: #example
 * name.given = "Abraham"
 * name.family = "Murakami"
+
+Instance: Helene
+InstanceOf: KLCommonCitizen
+Title: "Helene"
+Description: "Borgeren Helene"
+Usage: #example
+* name.given = "Helene"
+* name.family = "Markussen"
+* birthDate = 1959-05-03
