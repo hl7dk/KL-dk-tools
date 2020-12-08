@@ -95,7 +95,7 @@ Description: "WHO5 observation, for the fifth question about being interested"
 
 * code = SCT#247752005 //"Interesseniveau"
 * valueCodeableConcept.coding[SCTCode] from WHO5SCTfindingsInterest5
-* extension[associatedConditions].valueCodeableConcept = SCT#118233009 //| Finding of activity of daily living (finding) |
+* extension[associatedConditions].valueCodeableConcept = SCT#365462008 //|fund vedr. grad af interesse|
 
 
 Instance: MarksWHO5-2

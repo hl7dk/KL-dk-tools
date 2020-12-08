@@ -75,13 +75,13 @@ ValueSet: WHO5SCTfindingsHappy1
 Title: "WHO5SCTfindingsHappy1"
 Description: "SNOMED CT findings when conducting WHO-5 questionaires, question 1"
 * SCT#160245001  //"No current problems or disability"
-* SCT#420038007 // depressiv sindsstemning
+* SCT#366979004 //|depressiv sindsstemning|
 
 ValueSet: WHO5SCTfindingsCalm2
 Title: "WHO5SCTfindingsCalm2"
 Description: "SNOMED CT findings when conducting WHO-5 questionaires, question 2"
 * SCT#160245001  //"No current problems or disability"
-* SCT#48694002 // |Anxiety (finding)|
+* SCT#48694002 //|angst|
 
 ValueSet: WHO5SCTfindingsActive3
 Title: "WHO5SCTfindingsActive3"
