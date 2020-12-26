@@ -1,6 +1,6 @@
 Profile: KLToolsCareBodyTemperature
 Parent: http://hl7.org/fhir/StructureDefinition/oxygensat
-Title: "KLToolsCareBodyTemperature"
+Title: "Body temperature"
 Description: "Profile of HL7 oxygen saturation profile used in Danish Municipalities"
 //SNOMED on FHIR recommendation
 * code.coding contains snomedSlice 1..1

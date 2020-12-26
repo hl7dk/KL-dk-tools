@@ -1,7 +1,7 @@
 Profile: KLToolsCareHeartRate
 Parent: http://hl7.org/fhir/StructureDefinition/heartrate
 Title: "KLToolsCareHeartRate"
-Description: "Profile of HL7 heart rateprofile used in Danish Municipalities"
+Description: "Heart rate profile used in Danish Municipalities, derived from HL7 heart rate profile"
 //SNOMED on FHIR recommendation
 * code.coding contains snomedSlice 1..1
 * code.coding[snomedSlice] from HeartRateSCTobservables (extensible)

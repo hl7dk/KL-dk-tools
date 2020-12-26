@@ -15,7 +15,7 @@ Observation.value[x] is of type Observation.valueQuantity. It should contain a p
 
 Observation.method holds information about whether the "Test-setup" and "Citizen performance" have met the procedure-standards as described by KL, which are summarized above in English.
 
-Observation:extension.findingInformer holds information about whether the test have been informed by anyone else than the citizen. E.g. if the Observation.note holds information. Observation.note.text may be used to hold remarks about the observation.
+Observation.note.text may be used to hold remarks about the observation.
 
 ### Conversions between Danish information model and FHIR-profile
 Nedenstående tabel oversætter mellem de attributter der er defineret i værktøjsprojektet og den fælleskommunale informationsmodel, og definerer kort den enkelte attribut på dansk og specificerer, hvilke af FHIR-profilens atributter der skal bruges til specifikation af indholdet.
@@ -31,5 +31,4 @@ Nedenstående tabel oversætter mellem de attributter der er defineret i værkt�
 |observationsansvarlig|Den fagperson der er ansvarlig for observationen.|Observation.performer|
 |6MinutterGangprocedure|Information vedr. den procedure, der er brugt ifm. udførelsen ift. om test-setup og borgers udførelse har været i overensstemmelse med det beskrevne.|Observation.method|
 |observationstid|Tidspunkt for observationen.|Observation.effectiveDateTime|
-|6MinutterGangkilde|Kilde til den information, der er dokumenteret i observationen|Observation:extension.findingInformer|
 |6MinutterGangbemærkning|Bemærkning vedr. observationen|Observation.note.text|

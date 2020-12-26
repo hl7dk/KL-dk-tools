@@ -1,6 +1,6 @@
 Profile: KLToolsCarePainVAS
 Parent: KLCommonCareSocialObservation
-Title: "KLToolsCarePainVAS"
+Title: "PainVAS"
 Description: "Pain intensity evaluation using a visual analog scale, as performed in Danish municipalities"
 
 * code.coding = SCT#443394008 //|Visual analog scale pain score (observable entity)|

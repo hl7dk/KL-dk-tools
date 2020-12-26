@@ -1,12 +1,36 @@
 CodeSystem: KLToolsCodes
 Title: "KLToolsCodes"
 Description: "Codes associated with KLTools, which is not part of KLCommonCareSocial, or international terminologies"
-* #0e5aa952-d470-4219-b275-5e8204d96987 "WHO-5 Hele tiden (5)"
-* #9fd3c658-d0b7-4018-84e9-8588be7de478 "WHO-5 Det meste af tiden (4)"
-* #a3779fc5-d7b3-4d03-bdaf-5ae5a40b0899 "WHO-5 Lidt mere end halvdelen af tiden (3)"
-* #228ee58f-5785-4364-a99c-8ba99943f510 "WHO-5 Lidt mindre end halvdelen af tiden (2)"
-* #c4002c8a-91c5-4737-bba6-ce364e83fd28 "WHO-5 Lidt af tiden (1)"
-* #d092cdf0-e4e0-4cf6-a506-0adf95f56a8d "WHO-5 På intet tidspunkt (0)"
+* #0e5aa952-d470-4219-b275-5e8204d96987 "WHO-5 Hele tiden - 5 (glad)"
+* #9fd3c658-d0b7-4018-84e9-8588be7de478 "WHO-5 Det meste af tiden - 4 (glad)"
+* #a3779fc5-d7b3-4d03-bdaf-5ae5a40b0899 "WHO-5 Lidt mere end halvdelen af tiden - 3 (glad)"
+* #228ee58f-5785-4364-a99c-8ba99943f510 "WHO-5 Lidt mindre end halvdelen af tiden - 2 (glad)"
+* #c4002c8a-91c5-4737-bba6-ce364e83fd28 "WHO-5 Lidt af tiden - 1 (glad)"
+* #d092cdf0-e4e0-4cf6-a506-0adf95f56a8d "WHO-5 På intet tidspunkt - 0 (glad)"
+* #b9eb352d-145d-4c45-8f8c-5b92474c4af1 "WHO-5 Hele tiden - 5 (rolig)"
+* #b128508b-8ef8-4516-b8e1-f5af02a408f3 "WHO-5 Det meste af tiden - 4 (rolig)"
+* #1ab11c78-6258-4069-9065-0f076833b133 "WHO-5 Lidt mere end halvdelen af tiden - 3 (rolig)"
+* #d599f667-9300-432d-9edf-a1afa4c9af85 "WHO-5 Lidt mindre end halvdelen af tiden - 2 (rolig)"
+* #1fb14510-ec20-4a8e-bc3a-d45fa83909c9 "WHO-5 Lidt af tiden - 1 (rolig)"
+* #130fbd15-4718-4fb7-9592-d205f575bc9c "WHO-5 På intet tidspunkt - 0 (rolig)"
+* #3d3c13a6-befa-4a52-aef0-7e775ca11fdd "WHO-5 Hele tiden - 5 (aktiv)"
+* #60da44d3-815e-426f-8c8a-0ae34d85863a "WHO-5 Det meste af tiden - 4 (aktiv)"
+* #f573ad27-7d00-4505-99ac-f0f35cd16e6a "WHO-5 Lidt mere end halvdelen af tiden - 3 (aktiv)"
+* #d9d031d9-3185-4f59-a125-ea5a3503011a "WHO-5 Lidt mindre end halvdelen af tiden - 2 (aktiv)"
+* #08c8a19c-d135-4e05-a8d4-70c6da6f4842 "WHO-5 Lidt af tiden - 1 (aktiv)"
+* #ccc3ecb4-3249-4c82-9c2b-dca72f4ba374 "WHO-5 På intet tidspunkt - 0 (aktiv)"
+* #7aaccc2e-ead3-41f0-a9ba-091f2e539753 "WHO-5 Hele tiden - 5 (frisk)" 
+* #b1375340-07a1-4ab4-9d3b-f5de61b878b5 "WHO-5 Det meste af tiden - 4 (frisk)"
+* #0059dc5d-d174-45b9-a423-136e3d9c2bda "WHO-5 Lidt mere end halvdelen af tiden - 3 (frisk)"
+* #8f403657-cdbd-4d87-aefe-ab040a6db428 "WHO-5 Lidt mindre end halvdelen af tiden - 2 (frisk)"
+* #2bd7d702-99ac-4acc-b3f6-a9833a32f7c8 "WHO-5 Lidt af tiden - 1 (frisk)"
+* #18c05b5f-97e6-4c08-a920-ec75a213f1f6 "WHO-5 På intet tidspunkt - 0 (frisk)"
+* #2ca88533-c048-4b2a-9ac2-2206b63a25ac "WHO-5 Hele tiden - 5 (interesseret)" 
+* #b62a3f31-9b63-4b86-b5bd-edf300b9fbd6 "WHO-5 Det meste af tiden - 4 (interesseret)"
+* #392ee33f-e754-4443-a285-c19aff66726f "WHO-5 Lidt mere end halvdelen af tiden - 3 (interesseret)"
+* #3c323281-fc96-47cb-b057-1dff2ffa835b "WHO-5 Lidt mindre end halvdelen af tiden - 2 (interesseret)"
+* #314ab944-2f8a-453d-8653-b46cacf5f480 "WHO-5 Lidt af tiden - 1 (interesseret)"
+* #f97749b5-e689-40a4-9eda-0b0e35d185fc "WHO-5 På intet tidspunkt - 0 (interesseret)"
 * #4a069078-c3c3-4c67-899d-4e8876026f48Ja "Ingen problemer med test-setup og borgers udførelse" "Proceduren for observationen, som beskrevet af KL under test-setup og borgers udførelse, er fulgt"
 * #17772b27-bc9d-4d62-9515-d268a98a3a27 "Afvigelse i borgers udførelse" "Proceduren for observationen, som beskrevet af KL, er ikke fulgt pga. afvigelser i borgers udførelse"
 * #a3231c9a-5569-49c4-8760-4fffbf0b2b80 "Afvigelse i test-setup" "Proceduren for observationen, som beskrevet af KL, er ikke fulgt pga. afvigelse i test-setup"
@@ -36,17 +60,148 @@ Description: "Codes associated with KLTools, which is not part of KLCommonCareSo
 * #f3207523-d9f8-4e0b-8636-9e8b057b6971 "Moderate smerter (2)"
 * #d253770d-ce0b-4320-9806-b8fbe9e5af8a "Kraftige/svære smerter (3)"
 * #a3f25054-9f1d-4256-afa2-c1035b0bdd41 "Uudholdelige/værst tænkelige smerter (4)"
+* #4d5eeb61-a9b4-40cc-af45-4e8e2caa6db0 "Agiteret (1)"
+* #fc025609-8d3c-4d36-aa44-19fe839d548f "Habituel (0)"
+* #916b3530-23e2-4c11-8973-52a90bc9ec31 "Reagerer kun på tiltale (1)"
+* #0000e850-a51d-4867-a901-dd4c6a2a46a1 "Reagerer kun på smerte (2)"
+* #55da9922-c22b-4bd2-b842-e200048bfb20 "Ingen reaktion (3)"
+
+CodeSystem: SDSCodes
+Title: "SDSCodes"
+Description: "Questionaire answer codes in SDS (Sundhedsdatastyrelsen)"
+* #25.A1	 "Hele tiden"
+* #25.A2	 "Det meste af tiden"
+* #25.A3	 "Lidt mere end halvdelen af tiden"
+* #25.A4	 "Lidt mindre end halvdelen af tiden"
+* #25.A5	 "Lidt af tiden"
+* #25.A6	 "På intet tidspunkt"
+* #26.A1	 "Hele tiden"
+* #26.A2	 "Det meste af tiden"
+* #26.A3	 "Lidt mere end halvdelen af tiden"
+* #26.A4	 "Lidt mindre end halvdelen af tiden"
+* #26.A5	 "Lidt af tiden"
+* #26.A6	 "På intet tidspunkt"
+* #27.A1	 "Hele tiden"
+* #27.A2	 "Det meste af tiden"
+* #27.A3	 "Lidt mere end halvdelen af tiden"
+* #27.A4	 "Lidt mindre end halvdelen af tiden"
+* #27.A5	 "Lidt af tiden"
+* #27.A6	 "På intet tidspunkt"
+* #28.A1	 "Hele tiden"
+* #28.A2	 "Det meste af tiden"
+* #28.A3	 "Lidt mere end halvdelen af tiden"
+* #28.A4	 "Lidt mindre end halvdelen af tiden"
+* #28.A5	 "Lidt af tiden"
+* #28.A6	 "På intet tidspunkt"
+* #29.A1	 "Hele tiden"
+* #29.A2	 "Det meste af tiden"
+* #29.A3	 "Lidt mere end halvdelen af tiden"
+* #29.A4	 "Lidt mindre end halvdelen af tiden"
+* #29.A5	 "Lidt af tiden"
+* #29.A6	 "På intet tidspunkt"
 
 
-ValueSet: WHO5AnswerCodes
-Title: "WHO5AnswerCodes"
-Description: "Codes used to specify WHO-5 answers"
-* KLToolsCodes#0e5aa952-d470-4219-b275-5e8204d96987 // "WHO-5 Hele tiden (5)"
-* KLToolsCodes#9fd3c658-d0b7-4018-84e9-8588be7de478 //"WHO-5 Det meste af tiden (4)"
-* KLToolsCodes#a3779fc5-d7b3-4d03-bdaf-5ae5a40b0899 //"WHO-5 Lidt mere end halvdelen af tiden (3)"
-* KLToolsCodes#228ee58f-5785-4364-a99c-8ba99943f510 //"WHO-5 Lidt mindre end halvdelen af tiden (2)"
-* KLToolsCodes#c4002c8a-91c5-4737-bba6-ce364e83fd28 //"WHO-5 Lidt af tiden (1)"
-* KLToolsCodes#d092cdf0-e4e0-4cf6-a506-0adf95f56a8d //"WHO-5 På intet tidspunkt (0)"
+
+ValueSet: WHO5AnswerCodesHappy
+Title: "WHO5AnswerCodesHappy"
+Description: "Codes used to specify WHO-5 answers to the first question about being happy"
+* KLToolsCodes#0e5aa952-d470-4219-b275-5e8204d96987 //"WHO-5 Hele tiden (5) (glad)"
+* KLToolsCodes#9fd3c658-d0b7-4018-84e9-8588be7de478 //"WHO-5 Det meste af tiden (4) (glad)"
+* KLToolsCodes#a3779fc5-d7b3-4d03-bdaf-5ae5a40b0899 //"WHO-5 Lidt mere end halvdelen af tiden (3)(glad)"
+* KLToolsCodes#228ee58f-5785-4364-a99c-8ba99943f510 //"WHO-5 Lidt mindre end halvdelen af tiden (2)(glad)"
+* KLToolsCodes#c4002c8a-91c5-4737-bba6-ce364e83fd28 //"WHO-5 Lidt af tiden (1)(glad)"
+* KLToolsCodes#d092cdf0-e4e0-4cf6-a506-0adf95f56a8d //"WHO-5 På intet tidspunkt (0)(glad)"
+
+ValueSet: WHO5AnswerCodesHappySDS
+Title: "WHO5AnswerCodesHappySDS"
+Description: "SDS Codes used to specify WHO-5 answers to the first question about being happy"
+* SDSCodes#25.A1	// "Hele tiden"
+* SDSCodes#25.A2	// "Det meste af tiden"
+* SDSCodes#25.A3	// "Lidt mere end halvdelen af tiden"
+* SDSCodes#25.A4	// "Lidt mindre end halvdelen af tiden"
+* SDSCodes#25.A5	// "Lidt af tiden"
+* SDSCodes#25.A6	// "På intet tidspunkt"
+
+ValueSet: WHO5AnswerCodesCalm
+Title: "WHO5AnswerCodesCalm"
+Description: "Codes used to specify WHO-5 answers to the second question about being calm"
+* KLToolsCodes#b9eb352d-145d-4c45-8f8c-5b92474c4af1 //"WHO-5 Hele tiden - 5 (rolig)"
+* KLToolsCodes#b128508b-8ef8-4516-b8e1-f5af02a408f3 //"WHO-5 Det meste af tiden - 4 (rolig)"
+* KLToolsCodes#1ab11c78-6258-4069-9065-0f076833b133 //"WHO-5 Lidt mere end halvdelen af tiden - 3 (rolig)"
+* KLToolsCodes#d599f667-9300-432d-9edf-a1afa4c9af85 //"WHO-5 Lidt mindre end halvdelen af tiden - 2 (rolig)"
+* KLToolsCodes#1fb14510-ec20-4a8e-bc3a-d45fa83909c9 //"WHO-5 Lidt af tiden - 1 (rolig)"
+* KLToolsCodes#130fbd15-4718-4fb7-9592-d205f575bc9c //"WHO-5 På intet tidspunkt - 0 (rolig)"
+
+ValueSet: WHO5AnswerCodesCalmSDS
+Title: "WHO5AnswerCodesCalmSDS"
+Description: "SDS Codes used to specify WHO-5 answers to the second question about being calm"
+* SDSCodes#26.A1	// "Hele tiden"
+* SDSCodes#26.A2	// "Det meste af tiden"
+* SDSCodes#26.A3	// "Lidt mere end halvdelen af tiden"
+* SDSCodes#26.A4	// "Lidt mindre end halvdelen af tiden"
+* SDSCodes#26.A5	// "Lidt af tiden"
+* SDSCodes#26.A6	// "På intet tidspunkt"
+
+ValueSet: WHO5AnswerCodesActive
+Title: "WHO5AnswerCodesActive"
+Description: "Codes used to specify WHO-5 answers to the third question about being active"
+* KLToolsCodes#3d3c13a6-befa-4a52-aef0-7e775ca11fdd //"WHO-5 Hele tiden - 5 (aktiv)"
+* KLToolsCodes#60da44d3-815e-426f-8c8a-0ae34d85863a //"WHO-5 Det meste af tiden - 4 (aktiv)"
+* KLToolsCodes#f573ad27-7d00-4505-99ac-f0f35cd16e6a //"WHO-5 Lidt mere end halvdelen af tiden - 3 (aktiv)"
+* KLToolsCodes#d9d031d9-3185-4f59-a125-ea5a3503011a //"WHO-5 Lidt mindre end halvdelen af tiden - 2 (aktiv)"
+* KLToolsCodes#08c8a19c-d135-4e05-a8d4-70c6da6f4842 //"WHO-5 Lidt af tiden - 1 (aktiv)"
+* KLToolsCodes#ccc3ecb4-3249-4c82-9c2b-dca72f4ba374 //"WHO-5 På intet tidspunkt - 0 (aktiv)"
+
+ValueSet: WHO5AnswerCodesActiveSDS
+Title: "WHO5AnswerCodesActiveSDS"
+Description: "SDS Codes used to specify WHO-5 answers to the third question about being active"
+* SDSCodes#27.A1	// "Hele tiden"
+* SDSCodes#27.A2	// "Det meste af tiden"
+* SDSCodes#27.A3	// "Lidt mere end halvdelen af tiden"
+* SDSCodes#27.A4	// "Lidt mindre end halvdelen af tiden"
+* SDSCodes#27.A5	// "Lidt af tiden"
+* SDSCodes#27.A6	// "På intet tidspunkt"
+
+ValueSet: WHO5AnswerCodesRested
+Title: "WHO5AnswerCodesRested"
+Description: "Codes used to specify WHO-5 answers to the fourth question about being rested"
+* KLToolsCodes#7aaccc2e-ead3-41f0-a9ba-091f2e539753 //"WHO-5 Hele tiden - 5 (frisk)" 
+* KLToolsCodes#b1375340-07a1-4ab4-9d3b-f5de61b878b5 //"WHO-5 Det meste af tiden - 4 (frisk)"
+* KLToolsCodes#0059dc5d-d174-45b9-a423-136e3d9c2bda //"WHO-5 Lidt mere end halvdelen af tiden - 3 (frisk)"
+* KLToolsCodes#8f403657-cdbd-4d87-aefe-ab040a6db428 //"WHO-5 Lidt mindre end halvdelen af tiden - 2 (frisk)"
+* KLToolsCodes#2bd7d702-99ac-4acc-b3f6-a9833a32f7c8 //"WHO-5 Lidt af tiden - 1 (frisk)"
+* KLToolsCodes#18c05b5f-97e6-4c08-a920-ec75a213f1f6 //"WHO-5 På intet tidspunkt - 0 (frisk)"
+
+ValueSet: WHO5AnswerCodesRestedSDS
+Title: "WHO5AnswerCodesRestedSDS"
+Description: "SDS Codes used to specify WHO-5 answers to the fourth question about being rested"
+* SDSCodes#28.A1	// "Hele tiden"
+* SDSCodes#28.A2	// "Det meste af tiden"
+* SDSCodes#28.A3	// "Lidt mere end halvdelen af tiden"
+* SDSCodes#28.A4	// "Lidt mindre end halvdelen af tiden"
+* SDSCodes#28.A5	// "Lidt af tiden"
+* SDSCodes#28.A6	// "På intet tidspunkt"
+
+
+ValueSet: WHO5AnswerCodesInterest
+Title: "WHO5AnswerCodesInterest"
+Description: "Codes used to specify WHO-5 answers to the fifth question about being interested"
+* KLToolsCodes#2ca88533-c048-4b2a-9ac2-2206b63a25ac //"WHO-5 Hele tiden - 5 (interesseret)" 
+* KLToolsCodes#b62a3f31-9b63-4b86-b5bd-edf300b9fbd6 //"WHO-5 Det meste af tiden - 4 (interesseret)"
+* KLToolsCodes#392ee33f-e754-4443-a285-c19aff66726f //"WHO-5 Lidt mere end halvdelen af tiden - 3 (interesseret)"
+* KLToolsCodes#3c323281-fc96-47cb-b057-1dff2ffa835b //"WHO-5 Lidt mindre end halvdelen af tiden - 2 (interesseret)"
+* KLToolsCodes#314ab944-2f8a-453d-8653-b46cacf5f480 //"WHO-5 Lidt af tiden - 1 (interesseret)"
+* KLToolsCodes#f97749b5-e689-40a4-9eda-0b0e35d185fc //"WHO-5 På intet tidspunkt - 0 (interesseret)"
+
+ValueSet: WHO5AnswerCodesInterestSDS
+Title: "WHO5AnswerCodesRestedSDS"
+Description: "SDS Codes used to specify WHO-5 answers to the fifth question about being interested"
+* SDSCodes#29.A1	// "Hele tiden"
+* SDSCodes#29.A2	// "Det meste af tiden"
+* SDSCodes#29.A3	// "Lidt mere end halvdelen af tiden"
+* SDSCodes#29.A4	// "Lidt mindre end halvdelen af tiden"
+* SDSCodes#29.A5	// "Lidt af tiden"
+* SDSCodes#29.A6	// "På intet tidspunkt"
 
 ValueSet: KLToolsItemObservationCodes
 Title: "KLToolsItemObservationCodes"
@@ -212,6 +367,24 @@ Description: "SNOMED CT findings for VRS pain"
 * SCT#76948002 //|Severe pain (finding)|
 * SCT#67849003 //|Excruciating pain (finding)|
 
+ValueSet: ConciousnessCodes
+Title: "ConciousnessCodes"
+Description: "Findings for Counciousness"
+* KLToolsCodes#4d5eeb61-a9b4-40cc-af45-4e8e2caa6db0 //Agiteret (1)
+* KLToolsCodes#fc025609-8d3c-4d36-aa44-19fe839d548f //Habituel (0)
+* KLToolsCodes#916b3530-23e2-4c11-8973-52a90bc9ec31 //Reagerer kun på tiltale (1)
+* KLToolsCodes#0000e850-a51d-4867-a901-dd4c6a2a46a1 //Reagerer kun på smerte (2)
+* KLToolsCodes#55da9922-c22b-4bd2-b842-e200048bfb20 //Ingen reaktion (3)
+
+ValueSet: ConciousnessSCTFindings
+Title: "ConciousnessSCTFindings"
+Description: "SNOMED CT findings for Counciousness"
+* SCT#419567006 //|delirøs|
+* SCT#271591004 //|ved fuld bevidsthed|
+* SCT#300202002 //|Reagerer på stemme|
+* SCT#450847001 //|Responds to pain (finding)|
+* SCT#422768004 //|reagerer ikke|
+
 ValueSet: BodyweightSCTobservables
 Title: "BodyweightSCTobservables"
 Description: "SNOMED CT observables for weight"
@@ -328,23 +501,3 @@ Description: "NPU observables for urin stix"
 * NPU#NPU04206 "U—Protein; arb.k.(proc.) = ?"
 * NPU#NPU03694 "Pt—Urin; rel.massetæthed(20 °C/vand, 20 °C; proc.) = ?"
 * NPU#NPU03697 "U—Urobilinogen; arb.k.(proc.) = ?"
-
-
-CodeSystem: NPU
-Title: "NPU"
-Description: "NPUcodes used i danish municipalities"
-* #NPU14924 "U—Urin; egenskabsart(liste; stix; proc.)"
-* #NPU10504 "U—Acetoacetat; arb.k.(proc.) = ?"
-* #NPU17997 "U—Albumin; arb.k.(proc.) = ?"
-* #NPU10506 "U—Bacterium, nitrit-producerende; arb.k.(proc.) = ?"
-* #NPU01372 "U—Bilirubiner; arb.k.(proc.) = ?"
-* #NPU03963 "U—Erythrocytter; arb.k.(proc.) = ?"
-* #NPU04207 "U—Glucose; arb.k.(proc.) = ?"
-* #NPU02415 "U—Hydrogen-ion; pH(proc.) = ?"
-* #NPU04208 "U—Hæmoglobin; arb.k.(proc.) = ?"
-* #NPU03987 "U—Leukocytter; arb.k.(proc.) = ?"
-* #NPU21578 "U—Nitrit; arb.k.(proc.) = ?"
-* #NPU04864 "U—Porphobilinogen; arb.k.(proc.) = ?"
-* #NPU04206 "U—Protein; arb.k.(proc.) = ?"
-* #NPU03694 "Pt—Urin; rel.massetæthed(20 °C/vand, 20 °C; proc.) = ?"
-* #NPU03697 "U—Urobilinogen; arb.k.(proc.) = ?"

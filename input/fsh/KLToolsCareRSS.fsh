@@ -1,6 +1,6 @@
 Profile: KLToolsCareRSS
 Parent: KLCommonCareSocialObservation
-Title: "KLToolsCareRSS"
+Title: "Chair stand test (RSS)"
 Description: "Thirty second chair stand test score, as performed in Danish municipalities"
 * code = SCT#450738001
 * value[x] only integer

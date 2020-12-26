@@ -1,7 +1,7 @@
 Profile: KLToolsCareOxygenSaturation
 Parent: http://hl7.org/fhir/StructureDefinition/oxygensat
-Title: "KLToolsCareOxygenSaturation"
-Description: "Profile of HL7 oxygen saturation profile used in Danish Municipalities"
+Title: "Oxygen saturation"
+Description: "Oxygen saturation profile as used in Danish Municipalities, derived from HL7 oxygen saturation profile"
 //SNOMED on FHIR recommendation
 * code.coding contains snomedSlice 1..1
 * code.coding[snomedSlice] from OxygenSaturationSCTobservables (extensible)

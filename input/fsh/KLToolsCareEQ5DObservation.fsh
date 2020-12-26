@@ -1,6 +1,6 @@
 Profile: KLToolsCareEQ5DObservationMobility
 Parent: KLToolsCareItemObservation
-Title: "KLToolsCareEQ5DObservationMobility"
+Title: "EQ-5D mobility"
 Description: "EQ5D mobility observation, as performed in Danish municipalities"
 * code = SCT#301438001 //|Ability to mobilize (observable entity)|
  

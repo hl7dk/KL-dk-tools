@@ -1,7 +1,7 @@
 Profile: KLToolsCareRespirationRate
 Parent: http://hl7.org/fhir/StructureDefinition/resprate
-Title: "KLToolsCareRespirationRate"
-Description: "Profile of HL7 respiration rate profile used in Danish Municipalities"
+Title: "Respiration rate"
+Description: "Respiration rate profile used in Danish Municipalities, derived from HL7 respiration rate profile"
 //SNOMED on FHIR recommendation
 * code.coding contains snomedSlice 1..1
 * code.coding[snomedSlice] from RespirationRateSCTObservables (extensible)

@@ -1,6 +1,6 @@
 Profile: KLToolsCare6minwalk
 Parent: KLCommonCareSocialObservation
-Title: "KLToolsCare6minwalk"
+Title: "6 min walk"
 Description: "6 minutes walking test, as performed in Danish municipalities"
 * code.coding ^slicing.discriminator.type = #value
 * code.coding ^slicing.discriminator.path = "system"
@@ -25,7 +25,6 @@ Description: "6 minutes walking test, as performed in Danish municipalities"
 * method.coding[KLCode].system = KLToolsCodeSystem
 * method.coding[SCTCode] from TechniqesSCTCodes (required)
 * method.coding[SCTCode].system = SCT
-* extension contains FindingInformer named findingInformer 1..1
 
 * code ^short = "[DK] 6MinutterGangKode"
 * valueQuantity.value ^short = "[DK] 6MinutterGangResultat"
@@ -36,7 +35,6 @@ Description: "6 minutes walking test, as performed in Danish municipalities"
 * performer ^short = "[DK] observationsansvarlig"
 * method ^short = "[DK] 6MinutterGangprocedure"
 * effectiveDateTime ^short = "[DK] observationstid"
-* extension[findingInformer] ^short = "[DK] 6MinutterGangkilde"
 * note.text ^short = "[DK] 6MinutterGangbemærkning"
 
 Instance: Helene6minwalk
@@ -50,7 +48,6 @@ Description: "Helenes 6minutters gangtest"
 * valueQuantity.value = 350
 * valueQuantity.system = UCUM
 * valueQuantity.code = #m
-* extension[findingInformer].valueCodeableConcept = KLToolsCodes#a3d30bf2-4a3c-4c49-9001-5363ae11681c //OBS
 * method.coding[KLCode] = KLToolsCodes#17772b27-bc9d-4d62-9515-d268a98a3a27 //afvigelse i borgers udførelse
 * method.coding[SCTCode] = SCT#761996005 // |Estimation technique (qualifier value)|
 * note.text = "Borger støttede sig kortvarrigt til møbler to gange i løbet af testen. Hun fortsatte på min opfordring, så snart hun havde fået balancen"

@@ -1,6 +1,6 @@
 Profile: KLToolsCareBodyWeight
 Parent: http://hl7.org/fhir/StructureDefinition/bodyweight
-Title: "KLToolsCareBodyWeight"
+Title: "Body weight"
 Description: "Profile of HL7 body weight profile used in Danish Municipalities"
 //SNOMED on FHIR recommendation
 * code.coding contains snomedSlice 1..1

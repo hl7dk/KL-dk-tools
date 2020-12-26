@@ -1,9 +1,9 @@
-Profile: KLToolsCarePainVRS
+Profile: KLToolsCareConsiousness
 Parent: KLCommonCareSocialObservation
-Title: "Pain VRS"
-Description: "Pain intensity evaluation using a verbal rating scale, as performed in Danish municipalities"
+Title: "Consiousness observable"
+Description: "Level of consiousness observable as defined by TOBS, as performed in Danish municipalities. TOBS is Danish for early disease detection"
 
-* code.coding = SCT#225908003 //|Pain score (observable entity)|
+* code.coding = SCT#6942003 //|bevidsthedsniveau|
 * value[x] only CodeableConcept
 
 * valueCodeableConcept.coding ^slicing.discriminator.type = #value
@@ -13,16 +13,17 @@ Description: "Pain intensity evaluation using a verbal rating scale, as performe
 * valueCodeableConcept.coding contains
    KLToolsCode 1..1 and SCTCode 1..1
 
-* valueCodeableConcept.coding[KLToolsCode] from VRSpain (required)
+* valueCodeableConcept.coding[KLToolsCode] from ConciousnessCodes (required)
 * valueCodeableConcept.coding[KLToolsCode].system = KLToolsCodeSystem
 
 
-* valueCodeableConcept.coding[SCTCode] from VRSSCTfindingsPain
+* valueCodeableConcept.coding[SCTCode] from ConciousnessSCTFindings
 * valueCodeableConcept.coding[SCTCode].system = SCT
 
 
 * extension contains AssociatedConditions named associatedConditions 1..1
-* extension[associatedConditions].valueCodeableConcept = SCT#22253000 // |Pain (finding)|
+* extension[associatedConditions].valueCodeableConcept = SCT#106167005 //fund vedr. bevidsthed
+
 * method 1..1
 * method from KLtechniquesCodes (required)
 * extension contains FindingInformer named findingInformer 1..1
