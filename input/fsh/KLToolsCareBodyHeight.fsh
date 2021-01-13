@@ -19,6 +19,18 @@ Description: "Body height profile used in Danish Municipalities, derived from HL
 * method.coding[SCTCode] from TechniqesSCTCodes (required)
 * method.coding[SCTCode].system = SCT
 
+* code ^short = "[DK] HøjdeKode"
+* valueQuantity.value ^short = "[DK] HøjdeResultat"
+* valueQuantity.code ^short = "[DK] HøjdeEnhed"
+* valueQuantity.system ^short = "[DK] HøjdeEnhed"
+* subject ^short = "[DK] Højdesubjekt"
+* encounter ^short = "[DK] Højdekontakt"
+* performer ^short = "[DK] Højdeansvarlig"
+* method ^short = "[DK] HøjdeProcedure"
+* effectiveDateTime ^short = "[DK] Højdetid"
+* note.text ^short = "[DK] HøjdeBemærkning"
+* status ^short = "[DK] HøjdeStatus"
+
 Instance: HeleneBodyHeight
 InstanceOf: KLToolsCareBodyHeight
 Usage: #example

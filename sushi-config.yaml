@@ -8,7 +8,7 @@ name: municipalityTools
 title: "Implementation Guide for værktøjsprojektet"
 description: Danish municipalities implementation guide for værktøjsprojektet
 status: draft
-version: 0.1.1
+version: 0.1.2
 fhirVersion: 4.0.1
 dependencies:
   dk.fhir.ig.kl.common.caresocial: current

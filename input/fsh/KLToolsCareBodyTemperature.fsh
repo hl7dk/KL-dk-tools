@@ -7,7 +7,7 @@ Description: "Profile of HL7 oxygen saturation profile used in Danish Municipali
 * code.coding[snomedSlice] from BodyTemperatureSCTObservables (extensible)
 * code.coding[snomedSlice].system = SCT
 
-//KL extensions "kilde", associeret tilstand, procedure fulgt/teknik
+// procedure fulgt/teknik
 * method 1..1
 * method.coding ^slicing.discriminator.type = #value
 * method.coding ^slicing.discriminator.path = "system"
@@ -18,3 +18,15 @@ Description: "Profile of HL7 oxygen saturation profile used in Danish Municipali
 * method.coding[KLCode].system = KLToolsCodeSystem
 * method.coding[SCTCode] from TechniqesSCTCodes (required)
 * method.coding[SCTCode].system = SCT
+
+* code ^short = "[DK] TemperaturKode"
+* valueQuantity.value ^short = "[DK] TemperaturResultat"
+* valueQuantity.code ^short = "[DK] TemperaturEnhed"
+* valueQuantity.system ^short = "[DK] TemperaturEnhed"
+* subject ^short = "[DK] Temperatursubjekt"
+* encounter ^short = "[DK] Temperaturkontakt"
+* performer ^short = "[DK] Temperaturansvarlig"
+* method ^short = "[DK] TemperaturProcedure"
+* effectiveDateTime ^short = "[DK] Temperaturtid"
+* note.text ^short = "[DK] TemperaturBemærkning"
+* status ^short = "[DK] TemperaturStatus"

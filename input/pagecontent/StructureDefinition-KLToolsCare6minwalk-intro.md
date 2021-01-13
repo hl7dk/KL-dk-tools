@@ -13,7 +13,7 @@ and the more precise LOINC code 64098-7 "Walking distance 6 minutes"
 
 Observation.value[x] is of type Observation.valueQuantity. It should contain a positive decimal in Observation.valueQuantity.value, and use the UCUM unit for meter.
 
-Observation.method holds information about whether the "Test-setup" and "Citizen performance" have met the procedure-standards as described by KL, which are summarized above in English.
+Observation.method holds information about whether the "Test-setup" and "Citizen performance" have met the procedure-standards as described by KL, which are summarized above in English. In addition, use the SNOMED CT code 761996005 'Estimation technique (qualifier value)' if the procedure standard has not been followed, and 272391002 'Measurement technique (qualifier value)' otherwise.
 
 Observation.note.text may be used to hold remarks about the observation. Observation.status is typically 'final'.
 

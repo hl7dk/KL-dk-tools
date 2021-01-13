@@ -24,14 +24,14 @@ Nedenstående tabel oversætter mellem de attributter der er defineret i værkt�
 {:class="grid"}
 |   Informationsmodel      | Definition        | FHIR  |
 | ------------- |-------------| -----|
-|HjertefrekvensKode|Klasse som udtrykker, at der observeres på borgers hjertefrekvens.|Observation.code|
-|HjertefrekvensResultat|Decimaltal, der udtrykker, antallet af kilo eller gram, borgeren vejer. |Observation.valueQuantity.value|
-|HjertefrekvensEnhed|Klasse, der udtrykker, at den enhed der anvendes er /min.|Observation.valueQuantity.system and Observation.valueQuantity.code|
-|HjertefrekvensSubjekt|Den borger, som er genstand for observationen.|Observation.subject|
-|HjertefrekvensKontakt|Den kontakt, hvor observationen er foretaget.|Observation.encounter|
-|HjertefrekvensAnsvarlig|Den fagperson, der er ansvarlig for observationen.|Observation.performer|
-|HjertefrekvensProcedure|Information vedr. den procedure, der er brugt ifm. udførelsen ift. om test-setup og borgers udførelse har været i overensstemmelse med det beskrevne.|Observation.method|
-|HjertefrekvensTid|Tidspunkt for observationen.|Observation.effectiveDateTime|
-|HjertefrekvensAssocieretTilstand|Klasse, der udtrykker, hvilken kommunal tilstand denne observation er associeret med.|Observation:extension.associatedCondition|
-|HjertefrekvensBemærkning|Bemærkning vedr. observationen|Observation.note.text|
-|HjertefrekvensStatus|Klasse der udtrykker, hvor i sin proces, observationen er.|Observation.status|
+|IltmætningKode|Klasse som udtrykker, at der observeres på borgers iltmætning.|Observation.code|
+|IltmætningResultat|Decimaltal, der udtrykker, iltmætningen procentvis. |Observation.valueQuantity.value|
+|IltmætningEnhed|Klasse, der udtrykker, at den enhed der anvendes er /min.|Observation.valueQuantity.system and Observation.valueQuantity.code|
+|IltmætningSubjekt|Den borger, som er genstand for observationen.|Observation.subject|
+|IltmætningKontakt|Den kontakt, hvor observationen er foretaget.|Observation.encounter|
+|IltmætningAnsvarlig|Den fagperson, der er ansvarlig for observationen.|Observation.performer|
+|IltmætningProcedure|Information vedr. den procedure, der er brugt ifm. udførelsen ift. om test-setup og borgers udførelse har været i overensstemmelse med det beskrevne.|Observation.method|
+|IltmætningTid|Tidspunkt for observationen.|Observation.effectiveDateTime|
+|IltmætningAssocieretTilstand|Klasse, der udtrykker, hvilken kommunal tilstand denne observation er associeret med.|Observation:extension.associatedCondition|
+|IltmætningBemærkning|Bemærkning vedr. observationen|Observation.note.text|
+|IltmætningStatus|Klasse der udtrykker, hvor i sin proces, observationen er.|Observation.status|

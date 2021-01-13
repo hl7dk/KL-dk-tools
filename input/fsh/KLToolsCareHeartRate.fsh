@@ -8,7 +8,7 @@ Description: "Heart rate profile used in Danish Municipalities, derived from HL7
 * code.coding[snomedSlice].system = SCT
 
 //KL extensions "kilde", associeret tilstand, procedure fulgt/teknik
-* extension contains FindingInformer named findingInformer 0..1 and AssociatedConditions named associatedConditions 1..1
+* extension contains AssociatedConditions named associatedConditions 1..1
 * extension[associatedConditions].valueCodeableConcept = SCT#106063007 //|Cardiovascular finding (finding)|
 * method 1..1
 * method.coding ^slicing.discriminator.type = #value
@@ -20,3 +20,16 @@ Description: "Heart rate profile used in Danish Municipalities, derived from HL7
 * method.coding[KLCode].system = KLToolsCodeSystem
 * method.coding[SCTCode] from TechniqesSCTCodes (required)
 * method.coding[SCTCode].system = SCT
+
+* code ^short = "[DK] HjertefrekvensKode"
+* valueQuantity.value ^short = "[DK] HjertefrekvensResultat"
+* valueQuantity.code ^short = "[DK] HjertefrekvensEnhed"
+* valueQuantity.system ^short = "[DK] HjertefrekvensEnhed"
+* subject ^short = "[DK] HjertefrekvensSubjekt"
+* encounter ^short = "[DK] HjertefrekvensKontakt"
+* performer ^short = "[DK] HjertefrekvensAnsvarlig"
+* method ^short = "[DK] HjertefrekvensProcedure"
+* effectiveDateTime ^short = "[DK] HjertefrekvensTid"
+* extension[associatedConditions] ^short = "[DK] HjertefrekvensAssocieretTilstand"
+* note.text ^short = "[DK] HjertefrekvensBemærkning"
+* status ^short = "[DK] HjertefrekvensStatus"

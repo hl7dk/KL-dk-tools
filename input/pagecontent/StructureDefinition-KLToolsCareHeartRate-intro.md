@@ -25,7 +25,7 @@ Nedenstående tabel oversætter mellem de attributter der er defineret i værkt�
 |   Informationsmodel      | Definition        | FHIR  |
 | ------------- |-------------| -----|
 |HjertefrekvensKode|Klasse som udtrykker, at der observeres på borgers hjertefrekvens.|Observation.code|
-|HjertefrekvensResultat|Decimaltal, der udtrykker, antallet af kilo eller gram, borgeren vejer. |Observation.valueQuantity.value|
+|HjertefrekvensResultat|Decimaltal, der udtrykker, antallet af hjerteslag pr. minut. |Observation.valueQuantity.value|
 |HjertefrekvensEnhed|Klasse, der udtrykker, at den enhed der anvendes er /min.|Observation.valueQuantity.system and Observation.valueQuantity.code|
 |HjertefrekvensSubjekt|Den borger, som er genstand for observationen.|Observation.subject|
 |HjertefrekvensKontakt|Den kontakt, hvor observationen er foretaget.|Observation.encounter|

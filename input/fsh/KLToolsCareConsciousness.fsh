@@ -26,3 +26,14 @@ Description: "Level of consciousness assessment as defined by TOBS, as performed
 
 * method 1..1
 * method.coding from KLtechniquesCodes (required)
+
+* code ^short = "[DK] BevidsthedKode"
+* valueCodeableConcept ^short = "[DK] BevidsthedResultat"
+* subject ^short = "[DK] BevidsthedSubjekt"
+* encounter ^short = "[DK] BevidsthedKontakt"
+* performer ^short = "[DK] BevidsthedAnsvarlig"
+* method ^short = "[DK] BevidsthedProcedure"
+* effectiveDateTime ^short = "[DK] BevidsthedTid"
+* extension[associatedConditions] ^short = "[DK] BevidsthedAssocieretTilstand"
+* note.text ^short = "[DK] BevidsthedBemærkning"
+* status ^short = "[DK] BevidsthedStatus"

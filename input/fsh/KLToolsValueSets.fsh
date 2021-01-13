@@ -451,7 +451,7 @@ Description: "SNOMED CT observables for temperature"
 
 ValueSet: SCTUrinStix 
 Title: "SCTUrinStix"
-Description: "SNOMED CT observables for urin stix"
+Description: "SNOMED CT evaluation procedure codes for urin stix"
 //* SCT#363787002:704318007=118539007,370134009=123029007,704327008=122575003,246501002=702660003,370132008=30766002,246093002=43706004,704319004=78014005 //"Ascorbate [Mass/volume] in Urine by Test strip"
 //* SCT#363787002:704318007=118539007,370134009=123029007,704327008=122575003,246501002=702660003,246093002=79706000,370132008=30766002,704319004=78014005 //"Bilirubin.total [Mass/volume] in Urine by Test strip"
 //* SCT#363787002:704318007=118539007,370134009=123029007,704327008=122575003,246501002=702660003,246093002=15373003,370132008=30766002,704319004=78014005 //Creatinine [Mass/volume] in Urine by Test strip
@@ -473,7 +473,7 @@ Description: "SNOMED CT observables for urin stix"
 
 ValueSet: LOINCUrinStix
 Title: "LOINCUrinStix"
-Description: "SNOMED CT observables for urin stix"
+Description: "LOINC observables for urin stix"
 * LOINC#11218-5 //Microalbumin [Mass/volume] in Urine by Test strip - NPU17997
 * LOINC#5768-7 //Ascorbate [Mass/volume] in Urine by Test strip
 * LOINC#20505-4 //Bilirubin.total [Mass/volume] in Urine by Test strip
