@@ -9,7 +9,7 @@ Description: "Oxygen saturation profile as used in Danish Municipalities, derive
 
 //KL extensions "kilde", associeret tilstand, procedure fulgt/teknik
 * extension contains FindingInformer named findingInformer 0..1 and AssociatedConditions named associatedConditions 1..*
-* extension[associatedConditions].valueCodeableConcept = SCT#106063007+106048009 // |fund vedr. kardiovaskulære system|| fund vedr. respirationssystemet |
+* extension[associatedConditions].valueCodeableConcept = SCT#106048009 //  fund vedr. respirationssystemet |
 * method 1..1
 * method.coding ^slicing.discriminator.type = #value
 * method.coding ^slicing.discriminator.path = "system"

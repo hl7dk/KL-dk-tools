@@ -8,7 +8,6 @@ Description: "Profile of HL7 oxygen saturation profile used in Danish Municipali
 * code.coding[snomedSlice].system = SCT
 
 //KL extensions "kilde", associeret tilstand, procedure fulgt/teknik
-* extension contains FindingInformer named findingInformer 0..1
 * method 1..1
 * method.coding ^slicing.discriminator.type = #value
 * method.coding ^slicing.discriminator.path = "system"

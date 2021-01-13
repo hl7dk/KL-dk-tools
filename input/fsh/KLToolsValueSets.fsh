@@ -336,7 +336,7 @@ Description: "Codes for the techniqe used when obtaining an observation"
 ValueSet: TechniqesSCTCodes
 Title: "TechniqesSCTCodes"
 Description: "SNOMED CT Codes for the techniqe used when obtaining an observation"
-* SCT#761996005 // |Estimation technique (qualifier value)|
+* SCT#761996005 //|Estimation technique (qualifier value)|
 * SCT#733985002 //|Reported (qualifier value)|
 * SCT#272391002 //|Measurement technique (qualifier value)|
 
@@ -367,18 +367,18 @@ Description: "SNOMED CT findings for VRS pain"
 * SCT#76948002 //|Severe pain (finding)|
 * SCT#67849003 //|Excruciating pain (finding)|
 
-ValueSet: ConciousnessCodes
-Title: "ConciousnessCodes"
-Description: "Findings for Counciousness"
+ValueSet: ConsciousnessCodes
+Title: "ConsciousnessCodes"
+Description: "Findings for Counsciousness"
 * KLToolsCodes#4d5eeb61-a9b4-40cc-af45-4e8e2caa6db0 //Agiteret (1)
 * KLToolsCodes#fc025609-8d3c-4d36-aa44-19fe839d548f //Habituel (0)
 * KLToolsCodes#916b3530-23e2-4c11-8973-52a90bc9ec31 //Reagerer kun på tiltale (1)
 * KLToolsCodes#0000e850-a51d-4867-a901-dd4c6a2a46a1 //Reagerer kun på smerte (2)
 * KLToolsCodes#55da9922-c22b-4bd2-b842-e200048bfb20 //Ingen reaktion (3)
 
-ValueSet: ConciousnessSCTFindings
-Title: "ConciousnessSCTFindings"
-Description: "SNOMED CT findings for Counciousness"
+ValueSet: ConsciousnessSCTFindings
+Title: "ConsciousnessSCTFindings"
+Description: "SNOMED CT findings for consciousness"
 * SCT#419567006 //|delirøs|
 * SCT#271591004 //|ved fuld bevidsthed|
 * SCT#300202002 //|Reagerer på stemme|
@@ -394,6 +394,13 @@ Description: "SNOMED CT observables for weight"
 * SCT#425024002	// Body weight without shoes	
 * SCT#364589006	//Birth weight	
 * SCT#27113001	//Body weight
+
+ValueSet: BodyheightSCTobservables
+Title: "BodyheightSCTobservables"
+* SCT#248334005 //|Length of body (observable entity)|
+* SCT#276351002 // |Infant length (observable entity)|
+* SCT#276353004 //|Crown heel length (observable entity)|
+* SCT#248333004 //|Standing height (observable entity)|
 
 ValueSet: HeartRateSCTobservables
 Title: "HeartRateSCTobservables"
