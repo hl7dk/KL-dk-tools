@@ -2,6 +2,11 @@ Profile: KLToolsCareBloodPressure
 Parent: http://hl7.org/fhir/StructureDefinition/bp
 Title: "Blood pressure"
 Description: "Profile of HL7 Blood pressure profile used in Danish Municipalities"
+
+* code.coding contains snomedSlice 1..1
+* code.coding[snomedSlice] = #75367002
+* code.coding[snomedSlice].system = SCT
+
 //SNOMED on FHIR recommendation
 
 * component[SystolicBP].code.coding contains snomedSBPSlice 1..1
@@ -25,6 +30,24 @@ Description: "Profile of HL7 Blood pressure profile used in Danish Municipalitie
 * method.coding[KLCode].system = KLToolsCodeSystem
 * method.coding[SCTCode] from TechniqesSCTCodes (required)
 * method.coding[SCTCode].system = SCT
+
+* code ^short = "[DK] BlodtryksKode"
+* component[SystolicBP].code ^short = "[DK] SystoliskBlodtrykKode"
+* component[SystolicBP].valueQuantity.value ^short = "[DK] SystoliskBlodtrykResultat"
+* component[SystolicBP].valueQuantity.system ^short = "[DK] SystoliskBlodtrykEnhed"
+* component[SystolicBP].valueQuantity.code ^short = "[DK] SystoliskBlodtrykEnhed"
+* component[DiastolicBP].code ^short = "[DK] DiastoliskBlodtrykKode"
+* component[DiastolicBP].valueQuantity.value ^short = "[DK] DiastoliskBlodtrykResultat"
+* component[DiastolicBP].valueQuantity.system ^short = "[DK] DiastoliskBlodtrykEnhed"
+* component[DiastolicBP].valueQuantity.code ^short = "[DK] DiastoliskBlodtrykEnhed"
+* subject ^short = "[DK] BlodtryksSubjekt"
+* encounter ^short = "[DK] BlodtryksKontakt"
+* performer ^short = "[DK] BlodtryksAnsvarlig"
+* method ^short = "[DK] BlodtryksProcedure"
+* effectiveDateTime ^short = "[DK] BlodtryksTid"
+* extension[associatedConditions] ^short = "[DK] BlodtryksAssocieretTilstand"
+* note.text ^short = "[DK] BlodtryksBemærkning"
+* status ^short = "[DK] BlodtryksStatus"
 
 Instance: HeleneBloodPressure
 InstanceOf: KLToolsCareBloodPressure

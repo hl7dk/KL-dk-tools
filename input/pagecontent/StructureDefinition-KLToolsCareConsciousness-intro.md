@@ -5,7 +5,7 @@ KLToolsCareConciousness is a structured assessment of conciousness, as defined b
 The observation is performed at a time of day, where the citizen is normally awake. 
 
 #### Citizen performance
-The result is based on the performers observation of the citizen, at the observation-time. I.e. the result is not obscured by next-of-kin or other employees, that tries to report another finding, than what the perfomer is observing. 
+The result is based on the performer's clinical observation of the citizen, at the observation-time. I.e. the result is not obscured by next-of-kin or other employees, that tries to report another finding, than what the perfomer is observing. 
 
 #### Using the model
 The Observation.code is fixed to a SNOMED CT code 444714004 'Assessment of consciousness level (procedure)'.

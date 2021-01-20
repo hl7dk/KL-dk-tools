@@ -1,5 +1,5 @@
 ### Scope and usage
-KLToolsCareUrinStix is an observation that holds the results of a urin dipstick meassurement. Each value requires an instance of this profile.  Its intended use is Danish municipalities. A thirty second stand test is used to evaluate the fuctional ability, which meassure how many times a citizen may rise from a chair in 30 seconds. A thirty second stand test may be used and documented in this model without a special license.
+KLToolsCareUrinStix is an observation that holds the results of a urin dipstick meassurement. Each value requires an instance of this profile.  Its intended use is Danish municipalities.
 
 #### Test-setup
 Test is performed in urin which is no more than two hours old. The test-procedure for the dipstick, as descriped by the manufacturer, has been followed.
