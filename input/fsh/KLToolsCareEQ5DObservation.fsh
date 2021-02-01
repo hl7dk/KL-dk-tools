@@ -1,5 +1,5 @@
 Profile: KLToolsCareEQ5DObservationMobility
-Parent: KLToolsCareItemObservation
+Parent: KLCommonCareSocialObservation
 Title: "EQ-5D mobility"
 Description: "EQ5D mobility observation, as performed in Danish municipalities"
 * code = SCT#301438001 //|Ability to mobilize (observable entity)|
@@ -20,11 +20,16 @@ Description: "EQ5D mobility observation, as performed in Danish municipalities"
 * valueCodeableConcept.coding[SCTCode] from EQ5DSCTfindingsMobility
 * valueCodeableConcept.coding[SCTCode].system = SCT
 
+* extension contains FindingInformer named findingInformer 0..1 and AssociatedConditions named associatedConditions 0..*
 * extension[associatedConditions].valueCodeableConcept = SCT#364832000 //Fund vedr. evne til at udføre grovmotoriske funktioner
 
+* derivedFrom 1..1
+* derivedFrom only Reference(KLToolsQuestionnaireResponse)
+
+
 Profile: KLToolsCareEQ5DObservationHygiene
-Parent: KLToolsCareItemObservation
-Title: "KLToolsCareEQ5DObservationHygiene"
+Parent: KLCommonCareSocialObservation
+Title: "EQ-5D hygiene"
 Description: "EQ5D Hygiene observation, as performed in Danish municipalities"
 * code = SCT#284773001 //|Ability to perform personal care activity (observable entity)|
  
@@ -43,13 +48,19 @@ Description: "EQ5D Hygiene observation, as performed in Danish municipalities"
 
 * valueCodeableConcept.coding[SCTCode] from EQ5DSCTfindingsHygiene
 * valueCodeableConcept.coding[SCTCode].system = SCT
+* derivedFrom 1..1
+* derivedFrom only Reference(KLToolsQuestionnaireResponse)
 
+* extension contains FindingInformer named findingInformer 0..1 and AssociatedConditions named associatedConditions 0..*
 * extension[associatedConditions].valueCodeableConcept = SCT#365179009 //Fund vedr. evne til at udføre aktiviteter i forbindelse med personlig hygiejne
 
+
+
+
 Profile: KLToolsCareEQ5DObservationActivity
-Parent: KLToolsCareItemObservation
-Title: "KLToolsCareEQ5DObservationActivity"
-Description: "EQ5D Activity observation, as performed in Danish municipalities"
+Parent: KLCommonCareSocialObservation
+Title: "EQ-5D activity"
+Description: "EQ-5D Activity observation, as performed in Danish municipalities"
 * code = SCT#284545001 //|Ability to perform activities of everyday life (observable entity)|
  
 * value[x] only CodeableConcept
@@ -67,12 +78,15 @@ Description: "EQ5D Activity observation, as performed in Danish municipalities"
 
 * valueCodeableConcept.coding[SCTCode] from EQ5DSCTfindingsActivity
 * valueCodeableConcept.coding[SCTCode].system = SCT
+* derivedFrom 1..1
+* derivedFrom only Reference(KLToolsQuestionnaireResponse)
 
+* extension contains FindingInformer named findingInformer 0..1 and AssociatedConditions named associatedConditions 0..*
 * extension[associatedConditions].valueCodeableConcept = SCT#118233009 //Fund vedr. almindelig daglig livsførelse
 
 Profile: KLToolsCareEQ5DObservationPain
-Parent: KLToolsCareItemObservation
-Title: "KLToolsCareEQ5DObservationPain"
+Parent: KLCommonCareSocialObservation
+Title: "EQ-5D pain"
 Description: "EQ5D Pain observation, as performed in Danish municipalities"
 * code = SCT#364624006 //|Pain / sensation observable (observable entity)|
  
@@ -91,12 +105,15 @@ Description: "EQ5D Pain observation, as performed in Danish municipalities"
 
 * valueCodeableConcept.coding[SCTCode] from EQ5DSCTfindingsPain
 * valueCodeableConcept.coding[SCTCode].system = SCT
+* derivedFrom 1..1
+* derivedFrom only Reference(KLToolsQuestionnaireResponse)
 
+* extension contains FindingInformer named findingInformer 0..1 and AssociatedConditions named associatedConditions 0..*
 * extension[associatedConditions].valueCodeableConcept = SCT#106147001 // fund vedr. det sensoriske nervesystem
 
 Profile: KLToolsCareEQ5DObservationAnxiety
-Parent: KLToolsCareItemObservation
-Title: "KLToolsCareEQ5DObservationAnxiety"
+Parent: KLCommonCareSocialObservation
+Title: "EQ-5D anxiety"
 Description: "EQ5D Anxiety observation, as performed in Danish municipalities"
 * code = SCT#285854004 //|Emotion (observable entity)|
  
@@ -115,5 +132,8 @@ Description: "EQ5D Anxiety observation, as performed in Danish municipalities"
 
 * valueCodeableConcept.coding[SCTCode] from EQ5DSCTfindingsAnxiety
 * valueCodeableConcept.coding[SCTCode].system = SCT
+* derivedFrom 1..1
+* derivedFrom only Reference(KLToolsQuestionnaireResponse)
 
+* extension contains FindingInformer named findingInformer 0..1 and AssociatedConditions named associatedConditions 0..*
 * extension[associatedConditions].valueCodeableConcept = SCT#106126000 //|Emotional state finding (finding)|

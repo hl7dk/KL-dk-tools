@@ -1,0 +1,2 @@
+### Scope and usage
+Questionnaire profile, for all Questionaires in KLTools. It is a small extension of the FHIR Questionnaire resource. It includes two standard-extensions that allow minimum and maximum values to be specified for questionaire-items.  

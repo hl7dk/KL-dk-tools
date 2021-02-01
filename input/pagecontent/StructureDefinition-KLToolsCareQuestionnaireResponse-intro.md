@@ -1,0 +1,2 @@
+### Scope and usage
+QuestionnaireResponse profile, for all Questionaires in KLTools. It is a small extension of the FHIR QuestionnaireResponse resource. It includes two extensions that allow finding informer and techniqe to be specified. Note that only the finding informer is mandatory for KLTools questionnaires. Techniqe should only be specified if the questionnaire include a meassurement of some kind.

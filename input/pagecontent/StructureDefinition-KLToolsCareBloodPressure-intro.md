@@ -1,4 +1,4 @@
-## Scope and usage
+### Scope and usage
 KLToolsCareBloodPressure is an observation of blood pressure. Its intended use is Danish municipalities.
 
 #### Test-setup
