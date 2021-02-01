@@ -23,6 +23,4 @@ Description: "Pain intensity evaluation using a verbal rating scale, as performe
 
 * extension contains AssociatedConditions named associatedConditions 1..1
 * extension[associatedConditions].valueCodeableConcept = SCT#22253000 // |Pain (finding)|
-* method 1..1
-* method from KLtechniquesCodes (required)
 * extension contains FindingInformer named findingInformer 1..1

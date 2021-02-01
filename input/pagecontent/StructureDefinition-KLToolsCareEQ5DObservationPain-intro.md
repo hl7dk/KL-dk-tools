@@ -27,32 +27,3 @@ Nedenstående tabel oversætter mellem de attributter der er defineret i værkt�
 |EQ5DSmertetid|Tidspunkt for observationen.|Observation.effectiveDateTime|
 |EQ5DSmerteStatus|Klasse der udtrykker, hvor i sin proces, observationen er.|Observation.status|
 
-
-
-Profile: KLToolsCareEQ5DObservationPain
-Parent: KLCommonCareSocialObservation
-Title: "EQ-5D pain"
-Description: "EQ5D Pain observation, as performed in Danish municipalities"
-* code = SCT#364624006 //|Pain / sensation observable (observable entity)|
- 
-* value[x] only CodeableConcept
-
-* valueCodeableConcept.coding ^slicing.discriminator.type = #value
-* valueCodeableConcept.coding ^slicing.discriminator.path = "system"
-* valueCodeableConcept.coding ^slicing.rules = #open
-
-* valueCodeableConcept.coding contains
-   KLToolsCode 1..1 and SCTCode 1..1
-
-* valueCodeableConcept.coding[KLToolsCode] from EQ5Dpain (required)
-* valueCodeableConcept.coding[KLToolsCode].system = KLToolsCodeSystem
-
-
-* valueCodeableConcept.coding[SCTCode] from EQ5DSCTfindingsPain
-* valueCodeableConcept.coding[SCTCode].system = SCT
-* derivedFrom 1..1
-* derivedFrom only Reference(KLToolsQuestionnaireResponse)
-
-* extension contains FindingInformer named findingInformer 0..1 and AssociatedConditions named associatedConditions 0..*
-* extension[associatedConditions].valueCodeableConcept = SCT#106147001 // fund vedr. det sensoriske nervesystem
-

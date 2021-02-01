@@ -1,4 +1,3 @@
-
 ### Scope and Usage
 EQ-5D activity is used to represent the result of the question about activity in an EQ-5D questionnaire.
 

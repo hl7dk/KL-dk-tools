@@ -1,15 +1,15 @@
 Profile: KLToolsCareUrinStix
 Parent: KLCommonCareSocialObservation
-Title: "KLToolsCareUrinStix"
+Title: "Urin Stix"
 Description: "Urin stix result, as performed in Danish municipalities"
 * code.coding ^slicing.discriminator.type = #value
 * code.coding ^slicing.discriminator.path = "system"
 * code.coding ^slicing.rules = #open
 * code.coding contains
-   SCTCode 0..1 and LOINCCode 0..1 and NPUcode 1..1
+    NPUcode 1..1 and SCTCode 0..1 
 
 * code.coding[SCTCode] from SCTUrinStix 
-* code.coding[LOINCCode] from LOINCUrinStix
+//* code.coding[LOINCCode] from LOINCUrinStix
 * code.coding[NPUcode] from NPUUrinStix
 * value[x] only Quantity or string
 * valueQuantity.system = UCUM

@@ -471,24 +471,24 @@ Description: "SNOMED CT evaluation procedure codes for urin stix"
 * SCT#167321001 //|Urine dipstick for urobilinogen (procedure)|
 * SCT#167381004 //|Urine luteinizing hormone measurement (procedure)|
 
-ValueSet: LOINCUrinStix
-Title: "LOINCUrinStix"
-Description: "LOINC observables for urin stix"
-* LOINC#11218-5 //Microalbumin [Mass/volume] in Urine by Test strip - NPU17997
-* LOINC#5768-7 //Ascorbate [Mass/volume] in Urine by Test strip
-* LOINC#20505-4 //Bilirubin.total [Mass/volume] in Urine by Test strip
-* LOINC#30004-6 //Creatinine [Mass/volume] in Urine by Test strip - NPU04998
-* LOINC#20409-9 //Erythrocytes [#/volume] in Urine by Test strip – NPU04208 *
-* LOINC#5792-7 //Glucose [Mass/volume] in Urine by Test strip - NPU04207
-* LOINC#49137-3 //Hemoglobin [Mass/volume] in Urine by Test strip - NPU04208 *
-* LOINC#5797-6 //Ketones [Mass/volume] in Urine by Test strip - NPU10504
-* LOINC#20408-1 //Leukocytes [#/volume] in Urine by Test strip - NPU03987
-* LOINC#20407-3 //Nitrite [Mass/volume] in Urine by Test strip - NPU21578 (Indgår ofte i NPU14924)
-* LOINC#5803-2 //pH of Urine by Test strip - NPU02415
-* LOINC#5804-0 //Protein [Mass/volume] in Urine by Test strip - NPU03277
-* LOINC#5811-5 //Specific gravity of Urine by Test strip
-* LOINC#20405-7 //Urobilinogen [Mass/volume] in Urine by Test strip - NPU17997 U—Albumin; arb.k.(proc.) = ?
-* LOINC#15079-7 //Lutropin [Units/volume] in Urine
+// ValueSet: LOINCUrinStix
+// Title: "LOINCUrinStix"
+// Description: "LOINC observables for urin stix"
+// * LOINC#11218-5 //Microalbumin [Mass/volume] in Urine by Test strip - NPU17997
+// * LOINC#5768-7 //Ascorbate [Mass/volume] in Urine by Test strip
+// * LOINC#20505-4 //Bilirubin.total [Mass/volume] in Urine by Test strip
+// * LOINC#30004-6 //Creatinine [Mass/volume] in Urine by Test strip - NPU04998
+// * LOINC#20409-9 //Erythrocytes [#/volume] in Urine by Test strip – NPU04208 *
+// * LOINC#5792-7 //Glucose [Mass/volume] in Urine by Test strip - NPU04207
+// * LOINC#49137-3 //Hemoglobin [Mass/volume] in Urine by Test strip - NPU04208 *
+// * LOINC#5797-6 //Ketones [Mass/volume] in Urine by Test strip - NPU10504
+// * LOINC#20408-1 //Leukocytes [#/volume] in Urine by Test strip - NPU03987
+// * LOINC#20407-3 //Nitrite [Mass/volume] in Urine by Test strip - NPU21578 (Indgår ofte i NPU14924)
+// * LOINC#5803-2 //pH of Urine by Test strip - NPU02415
+// * LOINC#5804-0 //Protein [Mass/volume] in Urine by Test strip - NPU03277
+// * LOINC#5811-5 //Specific gravity of Urine by Test strip
+// * LOINC#20405-7 //Urobilinogen [Mass/volume] in Urine by Test strip - NPU17997 U—Albumin; arb.k.(proc.) = ?
+// * LOINC#15079-7 //Lutropin [Units/volume] in Urine
 
 ValueSet: NPUUrinStix
 Title: "NPUUrinStix"
