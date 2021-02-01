@@ -1,4 +1,3 @@
-
 ### Scope and Usage
 EQ-5D pain is used to represent the result of the question about pain in an EQ-5D questionnaire.
 
