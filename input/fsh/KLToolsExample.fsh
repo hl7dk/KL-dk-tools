@@ -6,6 +6,7 @@ Usage: #example
 * name.given = "Mark"
 * name.family = "Jensen"
 * birthDate = 1982-02-02
+* identifier.value = "mark"
 
 Instance:       AbrahamFraAkutSygeplejen
 InstanceOf:     KLCommonPractitioner
@@ -23,3 +24,4 @@ Usage: #example
 * name.given = "Helene"
 * name.family = "Markussen"
 * birthDate = 1959-05-03
+* identifier.value = "helene"

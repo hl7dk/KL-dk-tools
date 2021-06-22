@@ -96,13 +96,13 @@ Description: "WHO5 observation, for the fourth question about being rested"
 * valueCodeableConcept.coding[KLToolsCode] from WHO5AnswerCodesRested (required)
 * valueCodeableConcept.coding[KLToolsCode].system = KLToolsCodeSystem
 
-* code = SCT#404949004 //"Hvilemønster"
+* code = SCT#363817001 // |Sleep related observable (observable entity)|
 * valueCodeableConcept.coding[SCTCode] from WHO5SCTfindingsRested4
 * derivedFrom 1..1
 * derivedFrom only Reference(KLToolsQuestionnaireResponse)
 
 * extension contains FindingInformer named findingInformer 0..1 and AssociatedConditions named associatedConditions 0..*
-* extension[associatedConditions].valueCodeableConcept = SCT#106021008 // "Fund vedr. søvn/hvilemønster | Finding of sleep rest pattern (finding)
+* extension[associatedConditions].valueCodeableConcept = SCT#106168000 //|fund vedr. søvn
 
 * valueCodeableConcept.coding[SCTCode].system = SCT
 * valueCodeableConcept.coding[SDScode] from WHO5AnswerCodesRestedSDS (required)

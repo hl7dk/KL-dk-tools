@@ -203,28 +203,28 @@ Description: "SDS Codes used to specify WHO-5 answers to the fifth question abou
 * SDSCodes#29.A5	// "Lidt af tiden"
 * SDSCodes#29.A6	// "På intet tidspunkt"
 
-ValueSet: KLToolsItemObservationCodes
-Title: "KLToolsItemObservationCodes"
-Description: "Observation codes used to specify each item in a KL-questionaire"
-* SCT#404949004 //"Hvilemønster"
-* SCT#406202006 //"Træk vedr. energi"
-* SCT#247752005 //"Interesseniveau"
-* SCT#301438001 //|Ability to mobilize (observable entity)|
-* SCT#284773001 //|Ability to perform personal care activity (observable entity)|
-* SCT#284545001 //|Ability to perform activities of everyday life (observable entity)|
-* SCT#364624006 //|Pain / sensation observable (observable entity)|
-* SCT#285854004 //|Emotion (observable entity)|
-* SCT#736535009 //|EuroQol visual analogue score (observable entity)|
+// ValueSet: KLToolsItemObservationCodes
+// Title: "KLToolsItemObservationCodes"
+// Description: "Observation codes used to specify each item in a KL-questionaire"
+// * SCT#404949004 //"Hvilemønster"
+// * SCT#406202006 //"Træk vedr. energi"
+// * SCT#247752005 //"Interesseniveau"
+// * SCT#301438001 //|Ability to mobilize (observable entity)|
+// * SCT#284773001 //|Ability to perform personal care activity (observable entity)|
+// * SCT#284545001 //|Ability to perform activities of everyday life (observable entity)|
+// * SCT#364624006 //|Pain / sensation observable (observable entity)|
+// * SCT#285854004 //|Emotion (observable entity)|
+// * SCT#736535009 //|EuroQol visual analogue score (observable entity)|
 
-ValueSet: WHO5SCTfindings
-Title: "WHO5SCTfindings"
-Description: "SNOMED CT findings when conducting WHO-5 questionaires"
-* SCT#160245001  //"No current problems or disability"
-* SCT#366979004 //depressiv sindsstemning
-* SCT#48694002 // |Anxiety (finding)|
-* SCT#248274002 //"manglende energi"
-* SCT#267032009 //"træt altid"
-* SCT#20602000 //"Ligegyldighed"
+// ValueSet: WHO5SCTfindings
+// Title: "WHO5SCTfindings"
+// Description: "SNOMED CT findings when conducting WHO-5 questionaires"
+// * SCT#160245001  //"No current problems or disability"
+// * SCT#366979004 //depressiv sindsstemning
+// * SCT#48694002 // |Anxiety (finding)|
+// * SCT#248274002 //"manglende energi"
+// * SCT#267032009 //"træt altid"
+// * SCT#20602000 //"Ligegyldighed"
 
 ValueSet: WHO5SCTfindingsHappy1
 Title: "WHO5SCTfindingsHappy1"
@@ -248,13 +248,13 @@ ValueSet: WHO5SCTfindingsRested4
 Title: "WHO5SCTfindingsRested4"
 Description: "SNOMED CT findings when conducting WHO-5 questionaires, question 4"
 * SCT#160245001  //"No current problems or disability"
-* SCT#267032009 //"træt altid"
+* SCT#422730001 // |utilstrækkelig hvile/søvn i forhold til fysisk tilstand|
 
 ValueSet: WHO5SCTfindingsInterest5
 Title: "WHO5SCTfindingsInterest5"
 Description: "SNOMED CT findings when conducting WHO-5 questionaires, question 5"
 * SCT#160245001  //"No current problems or disability"
-* SCT#20602000 //"Ligegyldighed"
+* SCT#713566001 //|manglende interesse|
 
 ValueSet: EQ5Dmobility
 Title: "EQ5Dmobility"

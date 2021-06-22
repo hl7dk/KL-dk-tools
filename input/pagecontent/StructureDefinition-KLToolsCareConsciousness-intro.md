@@ -14,7 +14,7 @@ Observation.value[x] is of type Observation.valueCodeableConcept. Both a municip
 
 Observation.method holds information about whether the "Test-setup" and "Citizen performance" have met the procedure-standards as described by KL, which are summarized above in English.
 
-Observation:extension.associatedCondition holds a reference to related municipality conditions. This is relevant when presenting observation results in municipality systems. In this profile, Observation.extension:associatedCondition is fixed to the SNOMED CT code 106167005 |Consciousness related finding (finding)|.
+Observation:extension.associatedCondition holds a reference to related municipality conditions. This is relevant when presenting observation results in municipality systems. In this profile, Observation.extension:associatedCondition is fixed to the SNOMED CT code 106167005 'Consciousness related finding (finding)'.
 
 Observation.note.text may be used to hold remarks about the observation. Observation.status is typically 'final'.
 
