@@ -3,7 +3,7 @@ Parent: KLCommonCareSocialObservation
 Title: "Pain VRS"
 Description: "Pain intensity evaluation using a verbal rating scale, as performed in Danish municipalities"
 
-* code.coding = SCT#225908003 //|Pain score (observable entity)|
+* code.coding = SCT#1144798005 //|Verbal Rating Scale pain intensity score (observable entity)|
 * value[x] only CodeableConcept
 
 * valueCodeableConcept.coding ^slicing.discriminator.type = #value

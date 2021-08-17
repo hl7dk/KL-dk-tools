@@ -2,14 +2,7 @@ Profile: KLToolsCare6minwalk
 Parent: KLCommonCareSocialObservation
 Title: "6 min walk"
 Description: "6 minutes walking test, as performed in Danish municipalities"
-* code.coding ^slicing.discriminator.type = #value
-* code.coding ^slicing.discriminator.path = "system"
-* code.coding ^slicing.rules = #open
-* code.coding contains
-   SCTCode 0..1 and LOINCCode 0..1
-
-* code.coding[SCTCode] = SCT#165263003 //|Walking distance (observable entity)|
-* code.coding[LOINCCode] = LOINC#64098-7 //6 min walking test
+* code.coding = SCT#1144649008 //|Six minute walk test distance (observable entity)|
 * value[x] only Quantity
 * valueQuantity 1..1
 * valueQuantity.system = UCUM
@@ -43,8 +36,7 @@ Usage: #example
 Title: "Helene6minwalk"
 Description: "Helenes 6minutters gangtest"
 * subject = Reference(Helene)
-* code.coding[SCTCode] = SCT#165263003
-* code.coding[LOINCCode] = LOINC#64098-7
+* code.coding = SCT#1144649008
 * valueQuantity.value = 350
 * valueQuantity.system = UCUM
 * valueQuantity.code = #m

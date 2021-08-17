@@ -1,7 +1,7 @@
 Profile: KLToolsCareBodyTemperature
-Parent: http://hl7.org/fhir/StructureDefinition/oxygensat
+Parent: http://hl7.org/fhir/StructureDefinition/bodytemp
 Title: "Body temperature"
-Description: "Profile of HL7 oxygen saturation profile used in Danish Municipalities"
+Description: "Profile of HL7 body temeprature profile used in Danish Municipalities"
 //SNOMED on FHIR recommendation
 * code.coding contains snomedSlice 1..1
 * code.coding[snomedSlice] from BodyTemperatureSCTObservables (extensible)
@@ -30,3 +30,20 @@ Description: "Profile of HL7 oxygen saturation profile used in Danish Municipali
 * effectiveDateTime ^short = "[DK] Temperaturtid"
 * note.text ^short = "[DK] TemperaturBemærkning"
 * status ^short = "[DK] TemperaturStatus"
+
+Instance: HeleneBodyHeight
+InstanceOf: KLToolsCareBodyTemperature
+Usage: #example
+Title: "HeleneBodyTemperature"
+Description: "Helenes temperatur"
+* subject = Reference(Helene)
+* code.coding[snomedSlice] = SCT#276885007
+* code.coding[BodyHeightCode] = LOINC#8310-5
+* valueQuantity.value = 38
+* valueQuantity.unit = "grader celcius"
+* valueQuantity.system = UCUM
+* valueQuantity.code = #Cel
+* method.coding[KLCode] = KLToolsCodes#4a069078-c3c3-4c67-899d-4e8876026f48Ja //"Ingen problemer med test-setup og borgers udførelse"
+* method.coding[SCTCode] = SCT#272391002 //|Measurement technique (qualifier value)|
+* status = #final
+* effectiveDateTime = 2019-01-09T17:45:00.000Z

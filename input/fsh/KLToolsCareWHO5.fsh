@@ -6,7 +6,7 @@ Title: "WHO-5 questionnaire"
 * publisher = "Kommunernes Landsforening"
 * description = "Instrument til at måle graden af positive oplevelser, og som kan anvendes som et mål for personers generelle trivsel eller velbefindende. Tidsrammen er de seneste to uger."
 * name = "World Health Organisation-Five Well-Being Index (WHO-5)"
-* code = KLCommonproprietaryObservation#e30a95fd-7abd-478b-9a9d-e02dfdd73fd5 "WHO-5 værdi"
+* code = SCT#1144665009
 * item[0].type = #choice
 * item[0].text = "I de sidste 2 uger har jeg været glad og i godt humør"
 * item[0].linkId = "1"
@@ -51,6 +51,7 @@ Instance: WHO-5AnswerMark
 InstanceOf: KLToolsQuestionnaireResponse
 Usage: #example
 Title: "WHO-5 BesvarelseMark"
+Description: ""
 * questionnaire = "http://kl.dk/fhir/tools/care/Questionnaire/WHO-5"
 * status = #completed
 * subject = Reference(Mark)
@@ -60,16 +61,16 @@ Title: "WHO-5 BesvarelseMark"
 * extension[findingInformer].valueCodeableConcept = KLToolsCodes#a3d30bf2-4a3c-4c49-9001-5363ae11681c "Borger"
 
 * item[0].linkId = "1"
-* item[0].answer.valueCoding = KLToolsCodes#0e5aa952-d470-4219-b275-5e8204d96987 //"WHO-5 Hele tiden (5) (glad)"
+* item[0].answer.valueCoding = KLToolsCodes#0e5aa952-d470-4219-b275-5e8204d96987 "WHO-5 Hele tiden (5) (glad)"
 
 * item[1].linkId = "2"
-* item[1].answer.valueCoding = KLToolsCodes#1ab11c78-6258-4069-9065-0f076833b133 //"WHO-5 Lidt mere end halvdelen af tiden - 3 (rolig)"
+* item[1].answer.valueCoding = KLToolsCodes#1ab11c78-6258-4069-9065-0f076833b133 "WHO-5 Lidt mere end halvdelen af tiden - 3 (rolig)"
 
 * item[2].linkId = "3"
-* item[2].answer.valueCoding = KLToolsCodes#3d3c13a6-befa-4a52-aef0-7e775ca11fdd //"WHO-5 Hele tiden - 5 (aktiv)"
+* item[2].answer.valueCoding = KLToolsCodes#3d3c13a6-befa-4a52-aef0-7e775ca11fdd "WHO-5 Hele tiden - 5 (aktiv)"
 
 * item[3].linkId = "4"
-* item[3].answer.valueCoding = KLToolsCodes#0e5aa952-d470-4219-b275-5e8204d96987 "WHO-5 Hele tiden (5)"
+* item[3].answer.valueCoding = KLToolsCodes#7aaccc2e-ead3-41f0-a9ba-091f2e539753 "WHO-5 Hele tiden - 5 (frisk)" 
 
 * item[4].linkId = "5"
-* item[4].answer.valueCoding = KLToolsCodes#0e5aa952-d470-4219-b275-5e8204d96987 "WHO-5 Hele tiden (5)"
+* item[4].answer.valueCoding = KLToolsCodes#2ca88533-c048-4b2a-9ac2-2206b63a25ac "WHO-5 Hele tiden - 5 (interesseret)" 
