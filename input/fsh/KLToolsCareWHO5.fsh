@@ -50,9 +50,9 @@ Title: "WHO-5 questionnaire"
 Instance: WHO-5AnswerMark
 InstanceOf: KLToolsQuestionnaireResponse
 Usage: #example
-Title: "WHO-5 BesvarelseMark"
-Description: ""
-* questionnaire = "http://kl.dk/fhir/tools/care/Questionnaire/WHO-5"
+Title: "WHO-5AnswersMark"
+Description: "WHO-5 besvarelse Mark"
+* questionnaire = "http://kl.dk/fhir/tools/care/Questionnaire/KLToolsCareWHO-5"
 * status = #completed
 * subject = Reference(Mark)
 * author = Reference(AbrahamFraAkutSygeplejen)

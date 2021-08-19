@@ -54,3 +54,34 @@ Title: "EQ-5D questionnaire"
 * item[6].text = "Kommentar til EQ-5D"
 * item[6].linkId = "eq5dcomment"
 * item[6].repeats = false
+
+Instance: EQ5DAnswerHelene
+InstanceOf: KLToolsQuestionnaireResponse
+Usage: #example
+Title: "EQ5DAnswersHelene"
+Description: "EQ5D BesvarelseHelene"
+* questionnaire = "http://kl.dk/fhir/tools/care/Questionnaire/KLToolsCareEQ5D"
+* status = #completed
+* subject = Reference(Helene)
+* author = Reference(AbrahamFraAkutSygeplejen)
+* source = Reference(Helene)
+* extension[techniqe].valueCodeableConcept = KLToolsCodes#4a069078-c3c3-4c67-899d-4e8876026f48Ja "Ingen problemer med test-setup og borgers udførelse"
+* extension[findingInformer].valueCodeableConcept = KLToolsCodes#a3d30bf2-4a3c-4c49-9001-5363ae11681c "Borger"
+//Hertil fejl OBS!
+* item[0].linkId = "mobility"
+* item[0].answer.valueCoding = KLToolsCodes#95be0ff6-ab05-4918-be8e-6dbb820366bb "Jeg har nogle problemer med at gå omkring (2)"
+
+* item[1].linkId = "hygiene"
+* item[1].answer.valueCoding = KLToolsCodes#0f33b1ee-a26b-47b0-ab99-0a67494656e3 "Jeg har ingen problemer med min personlige pleje (1)"
+
+* item[2].linkId = "activity"
+* item[2].answer.valueCoding = KLToolsCodes#815b8b40-e2f6-4f55-a328-17c886e41490 "Jeg har ingen problemer med at udføre mine sædvanlige aktiviteter (1)"
+
+* item[3].linkId = "pain"
+* item[3].answer.valueCoding = KLToolsCodes#3616b50a-440a-4268-9c8a-660123526540 "Jeg har moderate smerter eller ubehag (2)"
+
+* item[4].linkId = "anxiety"
+* item[4].answer.valueCoding = KLToolsCodes#841deb88-b0b1-4f3b-9101-98da06870088 "Jeg er ikke ængstelig eller deprimeret (1)"
+
+* item[4].linkId = "vas"
+* item[4].answer.valueInteger = 70

@@ -31,14 +31,14 @@ Description: "Profile of HL7 body temeprature profile used in Danish Municipalit
 * note.text ^short = "[DK] TemperaturBemærkning"
 * status ^short = "[DK] TemperaturStatus"
 
-Instance: HeleneBodyHeight
+Instance: HeleneBodyTemperature
 InstanceOf: KLToolsCareBodyTemperature
 Usage: #example
 Title: "HeleneBodyTemperature"
 Description: "Helenes temperatur"
 * subject = Reference(Helene)
 * code.coding[snomedSlice] = SCT#276885007
-* code.coding[BodyHeightCode] = LOINC#8310-5
+* code.coding[BodyTempCode] = LOINC#8310-5
 * valueQuantity.value = 38
 * valueQuantity.unit = "grader celcius"
 * valueQuantity.system = UCUM

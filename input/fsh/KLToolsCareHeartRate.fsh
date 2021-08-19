@@ -33,3 +33,20 @@ Description: "Heart rate profile used in Danish Municipalities, derived from HL7
 * extension[associatedConditions] ^short = "[DK] HjertefrekvensAssocieretTilstand"
 * note.text ^short = "[DK] HjertefrekvensBemærkning"
 * status ^short = "[DK] HjertefrekvensStatus"
+
+Instance: HeleneHeartRate
+InstanceOf: KLToolsCareHeartRate
+Usage: #example
+Title: "HeleneHeartRate"
+Description: "Helenes puls"
+* subject = Reference(Helene)
+* code.coding[snomedSlice] = SCT#364075005	//Heart rate
+* code.coding[HeartRateCode] = LOINC#8867-4
+* valueQuantity.value = 88
+* valueQuantity.unit = "slag/minut"
+* valueQuantity.system = UCUM
+* valueQuantity.code = #/min
+* method.coding[KLCode] = KLToolsCodes#4a069078-c3c3-4c67-899d-4e8876026f48Ja //"Ingen problemer med test-setup og borgers udførelse"
+* method.coding[SCTCode] = SCT#272391002 //|Measurement technique (qualifier value)|
+* status = #final
+* effectiveDateTime = 2019-01-09T17:45:00.000Z

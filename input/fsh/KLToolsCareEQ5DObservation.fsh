@@ -137,3 +137,19 @@ Description: "EQ5D Anxiety observation, as performed in Danish municipalities"
 
 * extension contains FindingInformer named findingInformer 0..1 and AssociatedConditions named associatedConditions 0..*
 * extension[associatedConditions].valueCodeableConcept = SCT#106126000 //|Emotional state finding (finding)|
+
+Instance: HeleneEQ5Dmobility
+InstanceOf: KLToolsCareEQ5DObservationMobility
+Usage: #example
+Title: "HeleneEQ5D-mobilitet"
+Description: "Observation af Helenes mobilitet, som udtrykt i EQ5D spørgeskema"
+* code = SCT#301438001 "Ability to mobilize"
+* subject = Reference(Helene)
+* performer = Reference(AbrahamFraAkutSygeplejen)
+* valueCodeableConcept.coding[SCTCode] = SCT#719232003 "Difficulty walking"
+* valueCodeableConcept.coding[KLToolsCode] = KLToolsCodes#95be0ff6-ab05-4918-be8e-6dbb820366bb "Jeg har nogle problemer med at gå omkring (2)"
+* status = #final
+* method = KLToolsCodes#4a069078-c3c3-4c67-899d-4e8876026f48Ja "Ingen problemer med test-setup og borgers udførelse"
+* derivedFrom = Reference(EQ5DAnswerHelene)
+* extension[associatedConditions].valueCodeableConcept = SCT#364832000 //Fund vedr. evne til at udføre grovmotoriske funktioner
+

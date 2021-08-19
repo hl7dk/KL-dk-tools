@@ -33,3 +33,20 @@ Description: "Profile of HL7 body weight profile used in Danish Municipalities"
 * extension[associatedConditions] ^short = "[DK] VægtAssocieretTilstand"
 * note.text ^short = "[DK] VægtBemærkning"
 * status ^short = "[DK] VægtStatus"
+
+Instance: HeleneBodyWeight
+InstanceOf: KLToolsCareBodyWeight
+Usage: #example
+Title: "HeleneBodyWeight"
+Description: "Helenes vægt"
+* subject = Reference(Helene)
+* code.coding[snomedSlice] = SCT#276885007
+* code.coding[BodyWeightCode] = LOINC#29463-7
+* valueQuantity.value = 80
+* valueQuantity.unit = "kg"
+* valueQuantity.system = UCUM
+* valueQuantity.code = #kg
+* method.coding[KLCode] = KLToolsCodes#4a069078-c3c3-4c67-899d-4e8876026f48Ja //"Ingen problemer med test-setup og borgers udførelse"
+* method.coding[SCTCode] = SCT#272391002 //|Measurement technique (qualifier value)|
+* status = #final
+* effectiveDateTime = 2019-01-09T17:45:00.000Z

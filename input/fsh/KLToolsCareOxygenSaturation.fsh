@@ -33,3 +33,20 @@ Description: "Oxygen saturation profile as used in Danish Municipalities, derive
 * extension[associatedConditions] ^short = "[DK] IltmætningAssocieretTilstand"
 * note.text ^short = "[DK] IltmætningBemærkning"
 * status ^short = "[DK] IltmætningStatus"
+
+Instance: HeleneOxygenSaturation
+InstanceOf: KLToolsCareOxygenSaturation
+Usage: #example
+Title: "HeleneOxygenSaturation"
+Description: "Helenes oxygenmætning"
+* subject = Reference(Helene)
+* code.coding[snomedSlice] = SCT#431314004
+* code.coding[OxygenSatCode] = LOINC#2708-6
+* valueQuantity.value = 95
+* valueQuantity.unit = "%"
+* valueQuantity.system = UCUM
+* valueQuantity.code = #%
+* method.coding[KLCode] = KLToolsCodes#4a069078-c3c3-4c67-899d-4e8876026f48Ja //"Ingen problemer med test-setup og borgers udførelse"
+* method.coding[SCTCode] = SCT#272391002 //|Measurement technique (qualifier value)|
+* status = #final
+* effectiveDateTime = 2019-01-09T17:45:00.000Z
