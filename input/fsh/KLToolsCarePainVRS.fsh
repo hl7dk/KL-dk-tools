@@ -31,9 +31,8 @@ Usage: #example
 Title: "HelenePainVRS"
 Description: "Helenes smerte målt med VRS"
 * subject = Reference(Helene)
-* code.coding = SCT#443394008 "Verbal Rating Scale pain intensity score"
-* valueInteger = 20
-* method.coding[KLCode] = KLToolsCodes#4a069078-c3c3-4c67-899d-4e8876026f48Ja //"Ingen problemer med test-setup og borgers udførelse"
-* method.coding[SCTCode] = SCT#272391002 //|Measurement technique (qualifier value)|
+* code.coding = SCT#1144798005 "Verbal Rating Scale pain intensity score"
+* valueCodeableConcept.coding[KLToolsCode] = KLToolsCodes#d253770d-ce0b-4320-9806-b8fbe9e5af8a "Kraftige/svære smerter (3)"
+* valueCodeableConcept.coding[SCTCode] = SCT#76948002 "|Severe pain (finding)|"
 * extension[findingInformer].valueCodeableConcept = KLToolsCodes#a3d30bf2-4a3c-4c49-9001-5363ae11681c "Borger"
 * status = #final

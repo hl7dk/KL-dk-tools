@@ -21,8 +21,7 @@ Description: "Helenes smerte målt med VAS"
 * subject = Reference(Helene)
 * code.coding = SCT#443394008
 * valueInteger = 20
-* method.coding[KLCode] = KLToolsCodes#a3231c9a-5569-49c4-8760-4fffbf0b2b80 "Afvigelse i test-setup"
-* method.coding[SCTCode] = SCT#761996005 // |Estimation technique (qualifier value)|
+* method = KLToolsCodes#a3231c9a-5569-49c4-8760-4fffbf0b2b80 "Afvigelse i test-setup"
 * note.text = "Jeg havde ikke en rigtig VAS skala med, så jeg tegnede en på papir, og lod borger pege på den hjemmelavede VAS"
 * extension[findingInformer].valueCodeableConcept = KLToolsCodes#a3d30bf2-4a3c-4c49-9001-5363ae11681c "Borger"
 * status = #final
