@@ -144,8 +144,8 @@ Description: "Observation af Marks humør, som udtrykt i WHO5 spørgeskema"
 * code = SCT#285854004 //|Emotion (observable entity)|
 * subject = Reference(Mark)
 * performer = Reference(AbrahamFraAkutSygeplejen)
-* valueCodeableConcept.coding[SCTCode] = SCT#49971008 "ængstelse"
-* valueCodeableConcept.coding[KLToolsCode] = KLToolsCodes#a3779fc5-d7b3-4d03-bdaf-5ae5a40b0899 "WHO-5 Lidt mere end halvdelen af tiden (3)"
+* valueCodeableConcept.coding[SCTCode] = SCT#48694002
+* valueCodeableConcept.coding[KLToolsCode] = KLToolsCodes#1ab11c78-6258-4069-9065-0f076833b133 "WHO-5 Lidt mere end halvdelen af tiden - 3 (rolig)"
 * status = #final
 * method = KLToolsCodes#4a069078-c3c3-4c67-899d-4e8876026f48Ja "Ingen problemer med test-setup og borgers udførelse"
 * derivedFrom = Reference(WHO-5AnswerMark)

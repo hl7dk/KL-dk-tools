@@ -39,10 +39,10 @@ Description: "Helenes kropshøjde"
 * subject = Reference(Helene)
 * code.coding[snomedSlice] = SCT#165263003
 * code.coding[BodyHeightCode] = LOINC#8302-2
-* valueQuantity.value = 1.69
-* valueQuantity.unit = "m"
+* valueQuantity.value = 169
+* valueQuantity.unit = "cm"
 * valueQuantity.system = UCUM
-* valueQuantity.code = #m
+* valueQuantity.code = #cm
 * method.coding[KLCode] = KLToolsCodes#4a069078-c3c3-4c67-899d-4e8876026f48Ja //"Ingen problemer med test-setup og borgers udførelse"
 * method.coding[SCTCode] = SCT#272391002 //|Measurement technique (qualifier value)|
 * status = #final

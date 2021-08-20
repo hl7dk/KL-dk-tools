@@ -56,14 +56,15 @@ Title: "HeleneBloodPressure"
 Description: "Helenes blodtryk"
 * subject = Reference(Helene)
 * performer = Reference(AbrahamFraAkutSygeplejen)
-* code.coding = LOINC#85354-9
+* code.coding[BPCode] = LOINC#85354-9
+* code.coding[snomedSlice] = #75367002
 * component[SystolicBP].code.coding[snomedSBPSlice] = SCT#407554009
 * component[SystolicBP].code.coding[SBPCode]	= LOINC#8480-6
 * component[SystolicBP].valueQuantity.value = 128
 * component[SystolicBP].valueQuantity.unit = "mmHg"
 * component[SystolicBP].valueQuantity.system = UCUM
 * component[SystolicBP].valueQuantity.code = #mm[Hg]
-* component[DiastolicBP].code.coding[snomedDBPSlice] = SCT##407555005
+* component[DiastolicBP].code.coding[snomedDBPSlice] = SCT#407555005
 * component[DiastolicBP].code.coding[DBPCode] = LOINC#8462-4
 * component[DiastolicBP].valueQuantity.value = 80
 * component[DiastolicBP].valueQuantity.unit = "mmHg"

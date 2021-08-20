@@ -38,7 +38,7 @@ Title: "WHO-5 questionnaire"
 * item[4].type = #choice
 * item[4].text = "I de sidste 2 uger har min dagligdag været fyldt med ting der interesserer mig"
 * item[4].linkId = "5"
-* item[4].answerValueSet = "http://kl.dk/fhir/tools/care/ValueSet/WHO5AnswerCodesInterested"
+* item[4].answerValueSet = "http://kl.dk/fhir/tools/care/ValueSet/WHO5AnswerCodesInterest"
 * item[4].code =  SCT#247752005 "Interesseniveau"
 * item[4].repeats = false
 

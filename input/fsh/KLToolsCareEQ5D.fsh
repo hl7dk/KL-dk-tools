@@ -83,5 +83,5 @@ Description: "EQ5D BesvarelseHelene"
 * item[4].linkId = "anxiety"
 * item[4].answer.valueCoding = KLToolsCodes#841deb88-b0b1-4f3b-9101-98da06870088 "Jeg er ikke ængstelig eller deprimeret (1)"
 
-* item[4].linkId = "vas"
-* item[4].answer.valueInteger = 70
+* item[5].linkId = "vas"
+* item[5].answer.valueInteger = 70

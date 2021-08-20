@@ -1,7 +1,7 @@
 Instance: Mark
 InstanceOf: KLCommonCitizen
 Title: "Mark"
-Description: "KL-Citizen Mark"
+Description: "Borgeren Mark"
 Usage: #example
 * name.given = "Mark"
 * name.family = "Jensen"
