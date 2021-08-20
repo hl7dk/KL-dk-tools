@@ -26,3 +26,15 @@ Description: "Thirty second chair stand test score, as performed in Danish munic
 * effectiveDateTime ^short = "[DK] RSStid"
 * note.text ^short = "[DK] RSSbemærkning"
 * status ^short = "[DK] RSSstatus"
+
+Instance: HeleneRSS
+InstanceOf: KLToolsCareRSS
+Usage: #example
+Title: "HeleneRSS"
+Description: "Helenes rejse-sætte-sig test"
+* subject = Reference(Helene)
+* code.coding = SCT#450738001
+* valueInteger = 17
+* method.coding[KLCode] = KLToolsCodes#4a069078-c3c3-4c67-899d-4e8876026f48Ja //"Ingen problemer med test-setup og borgers udførelse"
+* method.coding[SCTCode] = SCT#272391002 //|Measurement technique (qualifier value)|
+* status = #final

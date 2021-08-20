@@ -33,6 +33,6 @@ Description: "Helenes smerte målt med VRS"
 * subject = Reference(Helene)
 * code.coding = SCT#1144798005 "Verbal Rating Scale pain intensity score"
 * valueCodeableConcept.coding[KLToolsCode] = KLToolsCodes#d253770d-ce0b-4320-9806-b8fbe9e5af8a "Kraftige/svære smerter (3)"
-* valueCodeableConcept.coding[SCTCode] = SCT#76948002 "|Severe pain (finding)|"
+* valueCodeableConcept.coding[SCTCode] = SCT#76948002 "Severe pain (finding)"
 * extension[findingInformer].valueCodeableConcept = KLToolsCodes#a3d30bf2-4a3c-4c49-9001-5363ae11681c "Borger"
 * status = #final

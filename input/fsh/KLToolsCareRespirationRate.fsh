@@ -34,18 +34,18 @@ Description: "Respiration rate profile used in Danish Municipalities, derived fr
 * note.text ^short = "[DK] RespirationsfrekvensBemærkning"
 * status ^short = "[DK] RespirationsfrekvensStatus"
 
-Instance: HeleneOxygenSaturation
-InstanceOf: KLToolsCareOxygenSaturation
+Instance: HeleneRespirationRate
+InstanceOf: KLToolsCareRespirationRate
 Usage: #example
-Title: "HeleneOxygenSaturation"
-Description: "Helenes oxygenmætning"
+Title: "HeleneRespirationRate"
+Description: "Helenes respirationsfrekvens"
 * subject = Reference(Helene)
-* code.coding[snomedSlice] = SCT#431314004
-* code.coding[OxygenSatCode] = LOINC#2708-6
-* valueQuantity.value = 95
-* valueQuantity.unit = "%"
+* code.coding[snomedSlice] = SCT#86290005
+* code.coding[RespRateCode] = LOINC#9279-1
+* valueQuantity.value = 13
+* valueQuantity.unit = "/min"
 * valueQuantity.system = UCUM
-* valueQuantity.code = #%
+* valueQuantity.code = #/min
 * method.coding[KLCode] = KLToolsCodes#4a069078-c3c3-4c67-899d-4e8876026f48Ja //"Ingen problemer med test-setup og borgers udførelse"
 * method.coding[SCTCode] = SCT#272391002 //|Measurement technique (qualifier value)|
 * status = #final

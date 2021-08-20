@@ -4,8 +4,7 @@ Title: "Blood pressure"
 Description: "Profile of HL7 Blood pressure profile used in Danish Municipalities"
 
 * code.coding contains snomedSlice 1..1
-* code.coding[snomedSlice] = #75367002
-* code.coding[snomedSlice].system = SCT
+* code.coding[snomedSlice] = SCT#75367002
 
 //SNOMED on FHIR recommendation
 
@@ -57,7 +56,7 @@ Description: "Helenes blodtryk"
 * subject = Reference(Helene)
 * performer = Reference(AbrahamFraAkutSygeplejen)
 * code.coding[BPCode] = LOINC#85354-9
-* code.coding[snomedSlice] = #75367002
+* code.coding[snomedSlice] = SCT#75367002
 * component[SystolicBP].code.coding[snomedSBPSlice] = SCT#407554009
 * component[SystolicBP].code.coding[SBPCode]	= LOINC#8480-6
 * component[SystolicBP].valueQuantity.value = 128
