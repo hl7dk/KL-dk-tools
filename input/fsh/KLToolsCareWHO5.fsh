@@ -5,7 +5,7 @@ Title: "WHO-5 questionnaire"
 * status = #draft
 * publisher = "Kommunernes Landsforening"
 * description = "Instrument til at måle graden af positive oplevelser, og som kan anvendes som et mål for personers generelle trivsel eller velbefindende. Tidsrammen er de seneste to uger."
-* name = "WHO-5-questionnaire"
+* name = "KLToolsCareWHO-5"
 * code = SCT#1144665009
 * item[0].type = #choice
 * item[0].text = "I de sidste 2 uger har jeg været glad og i godt humør"

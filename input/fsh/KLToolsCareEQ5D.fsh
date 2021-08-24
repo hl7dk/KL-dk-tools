@@ -5,7 +5,7 @@ Title: "EQ-5D questionnaire"
 * status = #draft
 * publisher = "Kommunernes Landsforening"
 * description = "Ikke-sygdomsspecifikt spørgeskema til at vurdere helbredsrelateret livskvalitet. Tidsrammen for borgers vurdering er borgers aktuelle tilstand (i dag)."
-* name = "EQ-5D (EQ-5D-3L)"
+* name = "KLToolsCareEQ5D"
 * code = SCT#1144655003 //|EuroQol five dimension three level index value (observable entity)|
 * item[0].type = #choice
 * item[0].text = "Bevægelighed"
