@@ -8,10 +8,12 @@ Description: "Urin stix result, as performed in Danish municipalities"
 * code.coding contains
     NPUcode 1..1 and SCTCode 0..1 
 
-* code.coding[SCTCode] from SCTUrinStix 
+* code.coding[SCTCode] from SCTUrinStix
+* code.coding[SCTCode].system = SCT 
 //* code.coding[LOINCCode] from LOINCUrinStix
 * code.coding[NPUcode] from NPUUrinStix
-* value[x] only Quantity or string
+* code.coding[NPUcode].system = NPU
+* value[x] only string or Quantity
 * valueQuantity.system = UCUM
 
 //KL extensions "kilde", associeret tilstand, procedure fulgt/teknik
@@ -42,7 +44,7 @@ Description: "Helenes urinstix"
 * subject = Reference(Helene)
 * code.coding[SCTCode] = SCT#252385000 "Urine dipstick for leukocyte esterase (procedure)"
 * code.coding[NPUcode] = NPU#NPU03987 "U—Leukocytter; arb.k.(proc.) = ?"
-* valueString.value = "Påviselige leukocytter"
+* valueString = "Påviselige leukocytter"
 * method.coding = KLToolsCodes#4a069078-c3c3-4c67-899d-4e8876026f48Ja //"Ingen problemer med test-setup og borgers udførelse"
 * status = #final
 * effectiveDateTime = 2019-01-09T17:45:00.000Z
