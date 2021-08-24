@@ -4,7 +4,7 @@ Title: "PainVAS"
 Description: "Pain intensity evaluation using a visual analog scale, as performed in Danish municipalities"
 
 * code.coding = SCT#443394008 //|Visual analog scale pain score (observable entity)|
-* value[x] only integer
+//* value[x] only integer
 * referenceRange.low.value = 0
 * referenceRange.high.value = 100
 * extension contains AssociatedConditions named associatedConditions 1..1
