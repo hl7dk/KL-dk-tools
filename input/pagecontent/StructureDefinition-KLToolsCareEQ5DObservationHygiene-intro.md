@@ -18,7 +18,7 @@ Nedenstående tabel oversætter mellem de attributter der er defineret i værkt�
 |   Informationsmodel      | Definition        | FHIR  |
 | ------------- |-------------| -----|
 |EQ5DHygiejneKode|Klasse som udtrykker, at der observeres på borgers EQ-5D hygiejne.|Observation.code|
-|EQ5DHygiejneResultat|Klasse, der udtrykker, svaret på spørgsmålet vedrørende hygiejne |Observation.valueQuantity.value|
+|EQ5DHygiejneResultat|Klasse, der udtrykker, svaret på spørgsmålet vedrørende hygiejne |Observation.valueCodeableConcept.coding|
 |EQ5DHygiejnesubjekt|Den borger, som er genstand for observationen.|Observation.subject|
 |EQ5DHygiejnekontakt|Den kontakt, hvor observationen er foretaget.|Observation.encounter|
 |EQ5DHygiejneansvarlig|Den fagperson der er ansvarlig for observationen.|Observation.performer|

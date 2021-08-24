@@ -18,7 +18,7 @@ Nedenstående tabel oversætter mellem de attributter der er defineret i værkt�
 |   Informationsmodel      | Definition        | FHIR  |
 | ------------- |-------------| -----|
 |EQ5DSmerteKode|Klasse som udtrykker, at der observeres på borgers EQ-5D Smerte.|Observation.code|
-|EQ5DSmerteResultat|Klasse, der udtrykker, svaret på spørgsmålet vedrørende Smerte |Observation.valueQuantity.value|
+|EQ5DSmerteResultat|Klasse, der udtrykker, svaret på spørgsmålet vedrørende Smerte |Observation.valueCodeableConcept.coding|
 |EQ5DSmertesubjekt|Den borger, som er genstand for observationen.|Observation.subject|
 |EQ5DSmertekontakt|Den kontakt, hvor observationen er foretaget.|Observation.encounter|
 |EQ5DSmerteansvarlig|Den fagperson der er ansvarlig for observationen.|Observation.performer|

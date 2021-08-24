@@ -18,7 +18,7 @@ Nedenstående tabel oversætter mellem de attributter der er defineret i værkt�
 |   Informationsmodel      | Definition        | FHIR  |
 | ------------- |-------------| -----|
 |EQ5DAktivitetKode|Klasse som udtrykker, at der observeres på borgers EQ-5D Aktivitet.|Observation.code|
-|EQ5DAktivitetResultat|Klasse, der udtrykker, svaret på spørgsmålet vedrørende Aktivitet |Observation.valueQuantity.value|
+|EQ5DAktivitetResultat|Klasse, der udtrykker, svaret på spørgsmålet vedrørende Aktivitet |Observation.valueCodeableConcept.coding|
 |EQ5DAktivitetsubjekt|Den borger, som er genstand for observationen.|Observation.subject|
 |EQ5DAktivitetkontakt|Den kontakt, hvor observationen er foretaget.|Observation.encounter|
 |EQ5DAktivitetansvarlig|Den fagperson der er ansvarlig for observationen.|Observation.performer|

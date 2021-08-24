@@ -18,7 +18,7 @@ Nedenstående tabel oversætter mellem de attributter der er defineret i værkt�
 |   Informationsmodel      | Definition        | FHIR  |
 | ------------- |-------------| -----|
 |EQ5DMobilitetKode|Klasse som udtrykker, at der observeres på borgers EQ-5D Mobilitet.|Observation.code|
-|EQ5DMobilitetResultat|Klasse, der udtrykker, svaret på spørgsmålet vedrørende mobilitet |Observation.valueQuantity.value|
+|EQ5DMobilitetResultat|Klasse, der udtrykker, svaret på spørgsmålet vedrørende mobilitet |Observation.valueCodeableConcept.coding|
 |EQ5DMobilitetsubjekt|Den borger, som er genstand for observationen.|Observation.subject|
 |EQ5DMobilitetkontakt|Den kontakt, hvor observationen er foretaget.|Observation.encounter|
 |EQ5DMobilitetansvarlig|Den fagperson der er ansvarlig for observationen.|Observation.performer|

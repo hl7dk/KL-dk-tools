@@ -18,7 +18,7 @@ Nedenstående tabel oversætter mellem de attributter der er defineret i værkt�
 |   Informationsmodel      | Definition        | FHIR  |
 | ------------- |-------------| -----|
 |EQ5DAngstKode|Klasse som udtrykker, at der observeres på borgers EQ-5D Angst.|Observation.code|
-|EQ5DAngstResultat|Klasse, der udtrykker, svaret på spørgsmålet vedrørende angst |Observation.valueQuantity.value|
+|EQ5DAngstResultat|Klasse, der udtrykker, svaret på spørgsmålet vedrørende angst |Observation.valueCodeableConcept.coding|
 |EQ5DAngstsubjekt|Den borger, som er genstand for observationen.|Observation.subject|
 |EQ5DAngstkontakt|Den kontakt, hvor observationen er foretaget.|Observation.encounter|
 |EQ5DAngstansvarlig|Den fagperson der er ansvarlig for observationen.|Observation.performer|
