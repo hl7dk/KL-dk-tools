@@ -1,8 +1,8 @@
 ### Scope and usage
-Questionnnaire for meassuring the health related life quality. The Questionnnaire consist of a descriptive part with five questions and a visual analog scale for overall health condition.
+Questionnnaire for meassuring general wellbeing. The Questionnnaire consist of five questions, each to be scored on a six level scale. 
 
 ### Explaination of the questionnaire
-Each of the questions, the visual-analog scale and the comment has its own item.
+Each of the questions and the comment has its own item.
 
 Each of the five questions have the item.type 'choice', a linkId that relates to the content of the question e.g. "mobility" and "hygiene", and a SNOMED CT observation code that points to the semantic content of the question e.g. 301438001 'Ability to mobilize (observable entity)' for the first question and  284773001 'Ability to perform personal care activity (observable entity)' for the second. Each have an answer value set, consisting of the appropiate values for EQ-5D-L3 i.e. three levels for each questions. However, the codes are local codes, since no overall international or Danish standard exist.
 
