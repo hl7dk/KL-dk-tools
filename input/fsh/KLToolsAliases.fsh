@@ -15,4 +15,4 @@ Alias:          UCUM = http://unitsofmeasure.org
 Alias:          KLCommonproprietaryObservation = http://kl.dk/fhir/common/caresocial/CodeSystem/KLCommonproprietary
 Alias:          ExtMinValue = http://hl7.org/fhir/StructureDefinition/minValue
 Alias:          ExtMaxValue = http://hl7.org/fhir/StructureDefinition/maxValue
-Alias:          SDSCodes = http://kl.dk/fhir/tools/care/CodeSystem/SDSCodes
+Alias:          NPU         = http://kl.dk/fhir/common/caresocial/CodeSystem/NPU

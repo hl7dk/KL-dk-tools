@@ -33,3 +33,16 @@ Description: "Urin stix result, as performed in Danish municipalities"
 * extension[associatedConditions] ^short = "[DK] UrinStixAssocieretTilstand"
 * note.text ^short = "[DK] UrinStixBemærkning"
 * status ^short = "[DK] UrinStixStatus"
+
+Instance: HeleneUrinStix
+InstanceOf: KLToolsCareUrinStix
+Usage: #example
+Title: "HeleneUrinStix leukocytter"
+Description: "Helenes urinstix"
+* subject = Reference(Helene)
+* code.coding[SCTCode] = SCT#252385000 "Urine dipstick for leukocyte esterase (procedure)"
+* code.coding[NPUcode] = NPU#NPU03987 "U—Leukocytter; arb.k.(proc.) = ?"
+* valueString.value = "Påviselige leukocytter"
+* method.coding = KLToolsCodes#4a069078-c3c3-4c67-899d-4e8876026f48Ja //"Ingen problemer med test-setup og borgers udførelse"
+* status = #final
+* effectiveDateTime = 2019-01-09T17:45:00.000Z

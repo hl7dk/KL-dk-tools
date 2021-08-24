@@ -9,7 +9,7 @@ Description: "WHO5 observation, for the first question about feeling happy"
 * valueCodeableConcept.coding ^slicing.rules = #open
 
 * valueCodeableConcept.coding contains
-   KLToolsCode 1..1 and SCTCode 1..1 and SDScode 0..1
+   KLToolsCode 1..1 and SCTCode 1..1
 * valueCodeableConcept.coding[KLToolsCode] from WHO5AnswerCodesHappy (required)
 * valueCodeableConcept.coding[KLToolsCode].system = KLToolsCodeSystem
 
@@ -22,8 +22,6 @@ Description: "WHO5 observation, for the first question about feeling happy"
 * extension contains FindingInformer named findingInformer 0..1 and AssociatedConditions named associatedConditions 0..*
 * extension[associatedConditions].valueCodeableConcept = SCT#106126000 //|fund vedr. emotionel tilstand|
 
-* valueCodeableConcept.coding[SDScode] from WHO5AnswerCodesHappySDS (required)
-* valueCodeableConcept.coding[SDScode].system = SDSCodes
 
 Profile: KLToolsWHO5ObservationCalm2
 Parent: KLCommonCareSocialObservation
@@ -36,7 +34,7 @@ Description: "WHO5 observation, for the second question about feeling calm"
 * valueCodeableConcept.coding ^slicing.rules = #open
 
 * valueCodeableConcept.coding contains
-   KLToolsCode 1..1 and SCTCode 1..1 and SDScode 0..1
+   KLToolsCode 1..1 and SCTCode 1..1
 * valueCodeableConcept.coding[KLToolsCode] from WHO5AnswerCodesCalm (required)
 * valueCodeableConcept.coding[KLToolsCode].system = KLToolsCodeSystem
 
@@ -49,8 +47,7 @@ Description: "WHO5 observation, for the second question about feeling calm"
 * extension[associatedConditions].valueCodeableConcept = SCT#106126000 // |fund vedr. emotionel tilstand|
 
 * valueCodeableConcept.coding[SCTCode].system = SCT
-* valueCodeableConcept.coding[SDScode] from WHO5AnswerCodesCalmSDS (required)
-* valueCodeableConcept.coding[SDScode].system = SDSCodes
+
 
 Profile: KLToolsWHO5ObservationActive3
 Parent: KLCommonCareSocialObservation
@@ -64,7 +61,7 @@ Description: "WHO5 observation, for the third question about being active"
 * valueCodeableConcept.coding ^slicing.rules = #open
 
 * valueCodeableConcept.coding contains
-   KLToolsCode 1..1 and SCTCode 1..1 and SDScode 0..1
+   KLToolsCode 1..1 and SCTCode 1..1
 * valueCodeableConcept.coding[KLToolsCode] from WHO5AnswerCodesActive (required)
 * valueCodeableConcept.coding[KLToolsCode].system = KLToolsCodeSystem
 
@@ -77,8 +74,6 @@ Description: "WHO5 observation, for the third question about being active"
 * extension[associatedConditions].valueCodeableConcept = SCT#301325005 //fund vedr. energiniveau 
 
 * valueCodeableConcept.coding[SCTCode].system = SCT
-* valueCodeableConcept.coding[SDScode] from WHO5AnswerCodesActiveSDS (required)
-* valueCodeableConcept.coding[SDScode].system = SDSCodes
 
 Profile: KLToolsWHO5ObservationRested4
 Parent: KLCommonCareSocialObservation
@@ -92,7 +87,7 @@ Description: "WHO5 observation, for the fourth question about being rested"
 * valueCodeableConcept.coding ^slicing.rules = #open
 
 * valueCodeableConcept.coding contains
-   KLToolsCode 1..1 and SCTCode 1..1 and SDScode 0..1
+   KLToolsCode 1..1 and SCTCode 1..1
 * valueCodeableConcept.coding[KLToolsCode] from WHO5AnswerCodesRested (required)
 * valueCodeableConcept.coding[KLToolsCode].system = KLToolsCodeSystem
 
@@ -105,8 +100,6 @@ Description: "WHO5 observation, for the fourth question about being rested"
 * extension[associatedConditions].valueCodeableConcept = SCT#106168000 //|fund vedr. søvn
 
 * valueCodeableConcept.coding[SCTCode].system = SCT
-* valueCodeableConcept.coding[SDScode] from WHO5AnswerCodesRestedSDS (required)
-* valueCodeableConcept.coding[SDScode].system = SDSCodes
 
 Profile: KLToolsWHO5ObservationInterest5
 Parent: KLCommonCareSocialObservation
@@ -120,7 +113,7 @@ Description: "WHO5 observation, for the fifth question about being interested"
 * valueCodeableConcept.coding ^slicing.rules = #open
 
 * valueCodeableConcept.coding contains
-   KLToolsCode 1..1 and SCTCode 1..1 and SDScode 0..1
+   KLToolsCode 1..1 and SCTCode 1..1
 * valueCodeableConcept.coding[KLToolsCode] from WHO5AnswerCodesInterest (required)
 * valueCodeableConcept.coding[KLToolsCode].system = KLToolsCodeSystem
 
@@ -133,8 +126,6 @@ Description: "WHO5 observation, for the fifth question about being interested"
 * extension[associatedConditions].valueCodeableConcept = SCT#365462008 //|fund vedr. grad af interesse|
 
 * valueCodeableConcept.coding[SCTCode].system = SCT
-* valueCodeableConcept.coding[SDScode] from WHO5AnswerCodesInterestSDS (required)
-* valueCodeableConcept.coding[SDScode].system = SDSCodes
 
 Instance: MarksWHO5-2
 InstanceOf: KLToolsWHO5ObservationCalm2
