@@ -119,30 +119,6 @@ Description: "Codes used to specify WHO-5 answers to the fifth question about be
 * KLToolsCodes#314ab944-2f8a-453d-8653-b46cacf5f480 //"WHO-5 Lidt af tiden - 1 (interesseret)"
 * KLToolsCodes#f97749b5-e689-40a4-9eda-0b0e35d185fc //"WHO-5 På intet tidspunkt - 0 (interesseret)"
 
-
-// ValueSet: KLToolsItemObservationCodes
-// Title: "KLToolsItemObservationCodes"
-// Description: "Observation codes used to specify each item in a KL-questionaire"
-// * SCT#404949004 //"Hvilemønster"
-// * SCT#406202006 //"Træk vedr. energi"
-// * SCT#247752005 //"Interesseniveau"
-// * SCT#301438001 //|Ability to mobilize (observable entity)|
-// * SCT#284773001 //|Ability to perform personal care activity (observable entity)|
-// * SCT#284545001 //|Ability to perform activities of everyday life (observable entity)|
-// * SCT#364624006 //|Pain / sensation observable (observable entity)|
-// * SCT#285854004 //|Emotion (observable entity)|
-// * SCT#736535009 //|EuroQol visual analogue score (observable entity)|
-
-// ValueSet: WHO5SCTfindings
-// Title: "WHO5SCTfindings"
-// Description: "SNOMED CT findings when conducting WHO-5 questionaires"
-// * SCT#160245001  //"No current problems or disability"
-// * SCT#366979004 //depressiv sindsstemning
-// * SCT#48694002 // |Anxiety (finding)|
-// * SCT#248274002 //"manglende energi"
-// * SCT#267032009 //"træt altid"
-// * SCT#20602000 //"Ligegyldighed"
-
 ValueSet: WHO5SCTfindingsHappy1
 Title: "WHO5SCTfindingsHappy1"
 Description: "SNOMED CT findings when conducting WHO-5 questionaires, question 1"
@@ -369,9 +345,6 @@ Description: "SNOMED CT observables for temperature"
 ValueSet: SCTUrinStix 
 Title: "SCTUrinStix"
 Description: "SNOMED CT evaluation procedure codes for urin stix"
-//* SCT#363787002:704318007=118539007,370134009=123029007,704327008=122575003,246501002=702660003,370132008=30766002,246093002=43706004,704319004=78014005 //"Ascorbate [Mass/volume] in Urine by Test strip"
-//* SCT#363787002:704318007=118539007,370134009=123029007,704327008=122575003,246501002=702660003,246093002=79706000,370132008=30766002,704319004=78014005 //"Bilirubin.total [Mass/volume] in Urine by Test strip"
-//* SCT#363787002:704318007=118539007,370134009=123029007,704327008=122575003,246501002=702660003,246093002=15373003,370132008=30766002,704319004=78014005 //Creatinine [Mass/volume] in Urine by Test strip
 * SCT#271000000 //|Urine albumin measurement (procedure)|
 * SCT#313668003 //|Urine vitamin C measurement (procedure)|
 * SCT#252384001 //|Urine dipstick for bilirubin (procedure)|
