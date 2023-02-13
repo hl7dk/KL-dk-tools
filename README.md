@@ -4,3 +4,4 @@ This repository contains Local Goverment Denmark (Kommunernes Landsforening) FHI
 The Implementation guide is a derivative of the Common Municipality Information Model (FKI). The FKI FHIR profiles can be used to exchange and report health care and social care data from Danish municipalities. See more her: http://build.fhir.org/ig/hl7dk/KL-dk/
 
 
+
