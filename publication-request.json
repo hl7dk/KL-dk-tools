@@ -1,0 +1,14 @@
+{
+    "package-id" : "kl.dk.fhir.ffinst",
+    "version" : "1.0.0",
+    "path" : "http://fhir.kl.dk/core/1.0.0",
+    "mode" : "milestone",
+    "status" : "release",
+    "sequence" : "Releases",
+    "descmd": "@release-notes.md",
+    "title" : "KLFFinst",
+    "first" : true,
+    "ci-build" : "https://build.fhir.org/ig/hl7dk/KL-dk-tools",
+    "category" : "Core",
+    "introduction" : "This IG includes general models for observations and questionaires used in Danish Municipalities. They are defined by KL/Local Government Denmark."
+  }

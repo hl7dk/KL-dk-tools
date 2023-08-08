@@ -1,6 +1,4 @@
 Alias:          SCTConditionValueset = http://hl7.org/fhir/ValueSet/condition-code
-Alias:          FSIII = http://kl.dk/fhir/common/caresocial/CodeSystem/FSIII
-Alias:          FFB = http://kl.dk/fhir/common/caresocial/CodeSystem/FFB
 Alias:          SCT = http://snomed.info/sct
 Alias:          SKS-D = urn:oid:1.2.208.176.2.4.12
 Alias:          ICPC2DK = https://kiap.dk/kiap/koder/icpckoder
@@ -15,4 +13,6 @@ Alias:          UCUM = http://unitsofmeasure.org
 Alias:          KLCommonproprietaryObservation = http://kl.dk/fhir/common/caresocial/CodeSystem/KLCommonproprietary
 Alias:          ExtMinValue = http://hl7.org/fhir/StructureDefinition/minValue
 Alias:          ExtMaxValue = http://hl7.org/fhir/StructureDefinition/maxValue
-Alias:          NPU         = http://kl.dk/fhir/common/caresocial/CodeSystem/NPU
+Alias:          FSIII = urn:oid:1.2.208.176.2.21
+Alias:          FFB = urn:oid:1.2.208.176.2.22
+Alias:          NPU = http://fhir.kl.dk/term/CodeSystem/NPU
