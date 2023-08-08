@@ -15,4 +15,4 @@ Alias:          ExtMinValue = http://hl7.org/fhir/StructureDefinition/minValue
 Alias:          ExtMaxValue = http://hl7.org/fhir/StructureDefinition/maxValue
 Alias:          FSIII = urn:oid:1.2.208.176.2.21
 Alias:          FFB = urn:oid:1.2.208.176.2.22
-Alias:          NPU = http://fhir.kl.dk/term/CodeSystem/NPU
+Alias:          NPU = urn:oid:1.2.208.176.2.1

@@ -1,6 +1,8 @@
 CodeSystem: KLToolsCodes
 Title: "KLToolsCodes"
 Description: "Codes associated with KLTools, which is not part of KLCommonCareSocial, or international terminologies"
+* ^experimental = false
+* ^caseSensitive = false
 * #0e5aa952-d470-4219-b275-5e8204d96987 "WHO-5 Hele tiden - 5 (glad)"
 * #9fd3c658-d0b7-4018-84e9-8588be7de478 "WHO-5 Det meste af tiden - 4 (glad)"
 * #a3779fc5-d7b3-4d03-bdaf-5ae5a40b0899 "WHO-5 Lidt mere end halvdelen af tiden - 3 (glad)"
@@ -69,6 +71,7 @@ Description: "Codes associated with KLTools, which is not part of KLCommonCareSo
 ValueSet: WHO5AnswerCodesHappy
 Title: "WHO5AnswerCodesHappy"
 Description: "Codes used to specify WHO-5 answers to the first question about being happy"
+* ^experimental = false
 * KLToolsCodes#0e5aa952-d470-4219-b275-5e8204d96987 //"WHO-5 Hele tiden (5) (glad)"
 * KLToolsCodes#9fd3c658-d0b7-4018-84e9-8588be7de478 //"WHO-5 Det meste af tiden (4) (glad)"
 * KLToolsCodes#a3779fc5-d7b3-4d03-bdaf-5ae5a40b0899 //"WHO-5 Lidt mere end halvdelen af tiden (3)(glad)"
@@ -80,6 +83,7 @@ Description: "Codes used to specify WHO-5 answers to the first question about be
 ValueSet: WHO5AnswerCodesCalm
 Title: "WHO5AnswerCodesCalm"
 Description: "Codes used to specify WHO-5 answers to the second question about being calm"
+* ^experimental = false
 * KLToolsCodes#b9eb352d-145d-4c45-8f8c-5b92474c4af1 //"WHO-5 Hele tiden - 5 (rolig)"
 * KLToolsCodes#b128508b-8ef8-4516-b8e1-f5af02a408f3 //"WHO-5 Det meste af tiden - 4 (rolig)"
 * KLToolsCodes#1ab11c78-6258-4069-9065-0f076833b133 //"WHO-5 Lidt mere end halvdelen af tiden - 3 (rolig)"
@@ -91,6 +95,7 @@ Description: "Codes used to specify WHO-5 answers to the second question about b
 ValueSet: WHO5AnswerCodesActive
 Title: "WHO5AnswerCodesActive"
 Description: "Codes used to specify WHO-5 answers to the third question about being active"
+* ^experimental = false
 * KLToolsCodes#3d3c13a6-befa-4a52-aef0-7e775ca11fdd //"WHO-5 Hele tiden - 5 (aktiv)"
 * KLToolsCodes#60da44d3-815e-426f-8c8a-0ae34d85863a //"WHO-5 Det meste af tiden - 4 (aktiv)"
 * KLToolsCodes#f573ad27-7d00-4505-99ac-f0f35cd16e6a //"WHO-5 Lidt mere end halvdelen af tiden - 3 (aktiv)"
@@ -101,6 +106,7 @@ Description: "Codes used to specify WHO-5 answers to the third question about be
 ValueSet: WHO5AnswerCodesRested
 Title: "WHO5AnswerCodesRested"
 Description: "Codes used to specify WHO-5 answers to the fourth question about being rested"
+* ^experimental = false
 * KLToolsCodes#7aaccc2e-ead3-41f0-a9ba-091f2e539753 //"WHO-5 Hele tiden - 5 (frisk)" 
 * KLToolsCodes#b1375340-07a1-4ab4-9d3b-f5de61b878b5 //"WHO-5 Det meste af tiden - 4 (frisk)"
 * KLToolsCodes#0059dc5d-d174-45b9-a423-136e3d9c2bda //"WHO-5 Lidt mere end halvdelen af tiden - 3 (frisk)"
@@ -112,6 +118,7 @@ Description: "Codes used to specify WHO-5 answers to the fourth question about b
 ValueSet: WHO5AnswerCodesInterest
 Title: "WHO5AnswerCodesInterest"
 Description: "Codes used to specify WHO-5 answers to the fifth question about being interested"
+* ^experimental = false
 * KLToolsCodes#2ca88533-c048-4b2a-9ac2-2206b63a25ac //"WHO-5 Hele tiden - 5 (interesseret)" 
 * KLToolsCodes#b62a3f31-9b63-4b86-b5bd-edf300b9fbd6 //"WHO-5 Det meste af tiden - 4 (interesseret)"
 * KLToolsCodes#392ee33f-e754-4443-a285-c19aff66726f //"WHO-5 Lidt mere end halvdelen af tiden - 3 (interesseret)"
@@ -122,36 +129,42 @@ Description: "Codes used to specify WHO-5 answers to the fifth question about be
 ValueSet: WHO5SCTfindingsHappy1
 Title: "WHO5SCTfindingsHappy1"
 Description: "SNOMED CT findings when conducting WHO-5 questionaires, question 1"
+* ^experimental = false
 * SCT#160245001  //"No current problems or disability"
 * SCT#366979004 //|depressiv sindsstemning|
 
 ValueSet: WHO5SCTfindingsCalm2
 Title: "WHO5SCTfindingsCalm2"
 Description: "SNOMED CT findings when conducting WHO-5 questionaires, question 2"
+* ^experimental = false
 * SCT#160245001  //"No current problems or disability"
 * SCT#48694002 //|angst|
 
 ValueSet: WHO5SCTfindingsActive3
 Title: "WHO5SCTfindingsActive3"
 Description: "SNOMED CT findings when conducting WHO-5 questionaires, question 3"
+* ^experimental = false
 * SCT#160245001  //"No current problems or disability"
 * SCT#248274002 //"manglende energi"
 
 ValueSet: WHO5SCTfindingsRested4
 Title: "WHO5SCTfindingsRested4"
 Description: "SNOMED CT findings when conducting WHO-5 questionaires, question 4"
+* ^experimental = false
 * SCT#160245001  //"No current problems or disability"
 * SCT#422730001 // |utilstrækkelig hvile/søvn i forhold til fysisk tilstand|
 
 ValueSet: WHO5SCTfindingsInterest5
 Title: "WHO5SCTfindingsInterest5"
 Description: "SNOMED CT findings when conducting WHO-5 questionaires, question 5"
+* ^experimental = false
 * SCT#160245001  //"No current problems or disability"
 * SCT#713566001 //|manglende interesse|
 
 ValueSet: EQ5Dmobility
 Title: "EQ5Dmobility"
 Description: "Findings for EQ-5D mobility"
+* ^experimental = false
 * KLToolsCodes#128f0d78-aa41-4213-bff3-df0dcdcff753 //"Jeg har ingen problemer med at gå omkring (1)"
 * KLToolsCodes#95be0ff6-ab05-4918-be8e-6dbb820366bb //"Jeg har nogle problemer med at gå omkring (2)"
 * KLToolsCodes#05e7c7d0-a4fd-497c-a290-72c541edec14 //"Jeg er bundet til sengen (3)"
@@ -159,6 +172,7 @@ Description: "Findings for EQ-5D mobility"
 ValueSet: EQ5DSCTfindingsMobility
 Title: "EQ5DSCTfindingsMobility"
 Description: "SNOMED CT findings for EQ-5D mobility"
+* ^experimental = false
 * SCT#160245001 // No current problems or disability
 * SCT#719232003 //|Difficulty walking (finding)|
 * SCT#160685001 //|Bed-ridden (finding)|
@@ -166,6 +180,7 @@ Description: "SNOMED CT findings for EQ-5D mobility"
 ValueSet: EQ5Dhygiene
 Title: "EQ5Dhygiene"
 Description: "Findings for EQ-5D hygiene"
+* ^experimental = false
 * KLToolsCodes#0f33b1ee-a26b-47b0-ab99-0a67494656e3 //"Jeg har ingen problemer med min personlige pleje (1)"
 * KLToolsCodes#7837e254-4d5b-4edd-89b8-b106ffbda113 //"Jeg har nogle problemer med at vaske mig og klæde mig på (2)"
 * KLToolsCodes#33cbf5d9-e8e2-4e59-a5f7-c6e9d1842968 //"Jeg kan ikke vaske mig eller klæde mig på (3)"
@@ -173,6 +188,7 @@ Description: "Findings for EQ-5D hygiene"
 ValueSet: EQ5DSCTfindingsHygiene
 Title: "EQ5DSCTfindingsHygiene"
 Description: "SNOMED CT findings for EQ-5D hygiene"
+* ^experimental = false
 * SCT#160245001 // No current problems or disability
 * SCT#284784008 //|Difficulty performing personal hygiene activity (finding)|
 * SCT#284781000 //|Unable to perform personal hygiene activity (finding)|
@@ -180,6 +196,7 @@ Description: "SNOMED CT findings for EQ-5D hygiene"
 ValueSet: EQ5Dactivity
 Title: "EQ5Dactivity"
 Description: "Findings for EQ-5D activity"
+* ^experimental = false
 * KLToolsCodes#815b8b40-e2f6-4f55-a328-17c886e41490 //"Jeg har ingen problemer med at udføre mine sædvanlige aktiviteter (1)"
 * KLToolsCodes#b80a1898-aac7-4d20-88c5-80124691e9d9 //"Jeg har nogle problemer med at udføre mine sædvanlige aktiviteter (2)"
 * KLToolsCodes#3334936f-efe1-456b-8b45-ce965d6f559e //"Jeg kan ikke udføre mine sædvanlige aktiviteter (3)"
@@ -187,6 +204,7 @@ Description: "Findings for EQ-5D activity"
 ValueSet: EQ5DSCTfindingsActivity
 Title: "EQ5DSCTfindingsActivity"
 Description: "SNOMED CT Findings for EQ-5D activity"
+* ^experimental = false
 * SCT#160245001 // No current problems or disability
 * SCT#365031000:280452008=371157007 //365031000 |Finding related to ability to perform activities of everyday life: 280452008 |Interpretation| = 371157007 |Able with difficulty|
 * SCT#365031000:280452008=371151008 //365031000 |Finding related to ability to perform activities of everyday life: 280452008 |Interpretation| = 371151008 |Unable|
@@ -194,6 +212,7 @@ Description: "SNOMED CT Findings for EQ-5D activity"
 ValueSet: EQ5Dpain
 Title: "EQ5Dpain"
 Description: "Findings for EQ-5D pain"
+* ^experimental = false
 * KLToolsCodes#16c984ad-9dcd-4214-9ca7-07669d65dd0a //"Jeg har ingen smerter eller ubehag (1)"
 * KLToolsCodes#3616b50a-440a-4268-9c8a-660123526540 //"Jeg har moderate smerter eller ubehag (2)"
 * KLToolsCodes#22d3d27b-f8fd-4c09-a4bf-a6a342442095 //"Jeg har ekstreme smerter eller ubehag (3)"
@@ -201,6 +220,7 @@ Description: "Findings for EQ-5D pain"
 ValueSet: EQ5DSCTfindingsPain
 Title: "EQ5DSCTfindingsPain"
 Description: "SNOMED CT findings for EQ-5D pain"
+* ^experimental = false
 * SCT#160245001 // No current problems or disability
 * SCT#50415004 //|Moderate pain (finding)|
 * SCT#67849003 //|Excruciating pain (finding)|
@@ -208,6 +228,7 @@ Description: "SNOMED CT findings for EQ-5D pain"
 ValueSet: EQ5Danxiety
 Title: "EQ5Danxiety"
 Description: "Findings for EQ-5D anxiety"
+* ^experimental = false
 * KLToolsCodes#841deb88-b0b1-4f3b-9101-98da06870088 //"Jeg er ikke ængstelig eller deprimeret (1)"
 * KLToolsCodes#6027bc9d-abad-4162-a156-839553e015e7 //"Jeg er moderat ængstelig eller deprimeret (2)"
 * KLToolsCodes#a9729d0b-3df2-445a-8b18-606f0c1889d6 //"Jeg er ekstremt ængstelig eller deprimeret (3)"
@@ -215,12 +236,14 @@ Description: "Findings for EQ-5D anxiety"
 ValueSet: EQ5DSCTfindingsAnxiety
 Title: "EQ5DSCTfindingsAnxiety"
 Description: "SNOMED CT findings for EQ-5D Anxiety"
+* ^experimental = false
 * SCT#160245001 // No current problems or disability
 * SCT#366979004+48694002 //| depressiv sindsstemning |+|Anxiety (finding)| 
 
 ValueSet: KLtechniquesCodes
 Title: "KLtechniquesCodes"
 Description: "Codes for the techniqe used when obtaining an observation"
+* ^experimental = false
 * KLToolsCodes#4a069078-c3c3-4c67-899d-4e8876026f48Ja //"Ingen problemer med test-setup og borgers udførelse"
 * KLToolsCodes#17772b27-bc9d-4d62-9515-d268a98a3a27 //"Afvigelser i borgers udførelse" //761996005 |Estimation technique (qualifier value)| //733985002 |Reported (qualifier value)|
 * KLToolsCodes#a3231c9a-5569-49c4-8760-4fffbf0b2b80 //"Afvigelse i test-setup"
@@ -229,6 +252,7 @@ Description: "Codes for the techniqe used when obtaining an observation"
 ValueSet: TechniqesSCTCodes
 Title: "TechniqesSCTCodes"
 Description: "SNOMED CT Codes for the techniqe used when obtaining an observation"
+* ^experimental = false
 * SCT#761996005 //|Estimation technique (qualifier value)|
 * SCT#733985002 //|Reported (qualifier value)|
 * SCT#272391002 //|Measurement technique (qualifier value)|
@@ -236,6 +260,7 @@ Description: "SNOMED CT Codes for the techniqe used when obtaining an observatio
 ValueSet: FindingInformerCodes 
 Title: "FindingInformerCodes"
 Description: "Codes for who informed the findings"
+* ^experimental = false
 * KLToolsCodes#a3d30bf2-4a3c-4c49-9001-5363ae11681c //"Borger"
 * KLToolsCodes#71675b26-285e-4551-9488-991d8b34a12a //"Borger støttet af pårørende"
 * KLToolsCodes#5937b533-a4e3-45af-9ddf-61dce1d56b74 //"Borger støttet af medarbejder"
@@ -245,6 +270,7 @@ Description: "Codes for who informed the findings"
 ValueSet: VRSpain
 Title: "VRSpain"
 Description: "Findings for VRS pain"
+* ^experimental = false
 * KLToolsCodes#51b9ff3a-604c-4a45-a8a2-5d9191b2056e // "Ingen smerter (0)"
 * KLToolsCodes#42b540bd-88bc-406c-b47d-ee0bae50b98e //Lette smerter (1)"
 * KLToolsCodes#f3207523-d9f8-4e0b-8636-9e8b057b6971 //"Moderate smerter (2)"
@@ -254,6 +280,7 @@ Description: "Findings for VRS pain"
 ValueSet: VRSSCTfindingsPain
 Title: "VRSSCTfindingsPain"
 Description: "SNOMED CT findings for VRS pain"
+* ^experimental = false
 * SCT#160245001 // No current problems or disability
 * SCT#40196000 //|Mild pain (finding)|
 * SCT#50415004 //|Moderate pain (finding)|
@@ -263,6 +290,7 @@ Description: "SNOMED CT findings for VRS pain"
 ValueSet: ConsciousnessCodes
 Title: "ConsciousnessCodes"
 Description: "Findings for Counsciousness"
+* ^experimental = false
 * KLToolsCodes#4d5eeb61-a9b4-40cc-af45-4e8e2caa6db0 //Agiteret (1)
 * KLToolsCodes#fc025609-8d3c-4d36-aa44-19fe839d548f //Habituel (0)
 * KLToolsCodes#916b3530-23e2-4c11-8973-52a90bc9ec31 //Reagerer kun på tiltale (1)
@@ -272,6 +300,7 @@ Description: "Findings for Counsciousness"
 ValueSet: ConsciousnessSCTFindings
 Title: "ConsciousnessSCTFindings"
 Description: "SNOMED CT findings for consciousness"
+* ^experimental = false
 * SCT#419567006 //|delirøs|
 * SCT#271591004 //|ved fuld bevidsthed|
 * SCT#300202002 //|Reagerer på stemme|
@@ -281,6 +310,7 @@ Description: "SNOMED CT findings for consciousness"
 ValueSet: BodyweightSCTobservables
 Title: "BodyweightSCTobservables"
 Description: "SNOMED CT observables for weight"
+* ^experimental = false
 //* codes from system http://snomed.info/sct where constraint = "(<< 27113001 | Body weight (observable entity) | MINUS (<< 248350002 | Reference weight (observable entity) | OR << 301334000 | Birth weight centile (observable entity) |))"
 * SCT#424927000 //	Body weight with shoes	
 * SCT#445541000	// Dry body weight	
@@ -290,6 +320,8 @@ Description: "SNOMED CT observables for weight"
 
 ValueSet: BodyheightSCTobservables
 Title: "BodyheightSCTobservables"
+Description: "SNOMED CT observables for height"
+* ^experimental = false
 * SCT#248334005 //|Length of body (observable entity)|
 * SCT#276351002 // |Infant length (observable entity)|
 * SCT#276353004 //|Crown heel length (observable entity)|
@@ -298,6 +330,7 @@ Title: "BodyheightSCTobservables"
 ValueSet: HeartRateSCTobservables
 Title: "HeartRateSCTobservables"
 Description: "SNOMED CT observables for heart rate"
+* ^experimental = false
 //* codes from system http://snomed.info/sct where constraint = "(<< 364075005 | Heart rate (observable entity) | MINUS 428420003 | Target heart rate (observable entity) |)"
 * SCT#422119006	//Brachial pulse rate	
 * SCT#429614003	//Posterior tibial pulse rate	
@@ -310,11 +343,13 @@ Description: "SNOMED CT observables for heart rate"
 ValueSet: OxygenSaturationSCTobservables
 Title: "OxygenSaturationSCTobservables"
 Description: "SNOMED CT observables for oxygen saturation"
+* ^experimental = false
 * codes from system SCT where concept is-a #431314004
 
 ValueSet: SystolicBloodPressureSCTObservables
 Title: "SystolicBloodPressureSCTObservables"
 Description: "SNOMED CT observables for systolic blood pressure"
+* ^experimental = false
 * SCT#72313002	//Systolic arterial pressure
 * SCT#400974009	//Standing systolic blood pressure	
 * SCT#399304008	//Systolic blood pressure on admission	
@@ -325,6 +360,7 @@ Description: "SNOMED CT observables for systolic blood pressure"
 ValueSet: DiastolicBloodPressureSCTObservables
 Title: "DiastolicBloodPressureSCTObservables"
 Description: "SNOMED CT observables for diastolic blood pressure"
+* ^experimental = false
 //* codes from system http://snomed.info/sct where constraint = "(<< 271650006 | Diastolic blood pressure (observable entity) | MINUS (<< 314465004 | 24 hour diastolic blood pressure (observable entity) | OR << 716632005 | Baseline diastolic blood pressure (observable entity) | OR << 315613000 | Target diastolic blood pressure (observable entity) |))"
 * SCT#446226005	//Diastolic blood pressure on admission	
 * SCT#400975005	//Standing diastolic blood pressure	
@@ -335,16 +371,19 @@ Description: "SNOMED CT observables for diastolic blood pressure"
 ValueSet: RespirationRateSCTObservables
 Title: "RespirationRateSCTObservables"
 Description: "SNOMED CT observables for respiratory rate"
+* ^experimental = false
 * codes from system SCT where concept is-a #86290005 //(Respiratory rate)
 
 ValueSet: BodyTemperatureSCTObservables
 Title: "TemperatureSCTObservables"
 Description: "SNOMED CT observables for temperature"
+* ^experimental = false
 * codes from system SCT where concept is-a #276885007 // Core Body temperature
 
 ValueSet: SCTUrinStix 
 Title: "SCTUrinStix"
 Description: "SNOMED CT evaluation procedure codes for urin stix"
+* ^experimental = false
 * SCT#271000000 //|Urine albumin measurement (procedure)|
 * SCT#313668003 //|Urine vitamin C measurement (procedure)|
 * SCT#252384001 //|Urine dipstick for bilirubin (procedure)|
@@ -383,6 +422,7 @@ Description: "SNOMED CT evaluation procedure codes for urin stix"
 ValueSet: NPUUrinStix
 Title: "NPUUrinStix"
 Description: "NPU observables for urin stix"
+* ^experimental = false
 * NPU#NPU14924 "U—Urin; egenskabsart(liste; stix; proc.)"
 * NPU#NPU10504 "U—Acetoacetat; arb.k.(proc.) = ?"
 * NPU#NPU17997 "U—Albumin; arb.k.(proc.) = ?"
