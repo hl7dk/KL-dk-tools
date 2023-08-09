@@ -10,35 +10,35 @@ Title: "WHO-5 questionnaire"
 * item[0].type = #choice
 * item[0].text = "I de sidste 2 uger har jeg været glad og i godt humør"
 * item[0].linkId = "happy"
-* item[0].answerValueSet = "http://fhir.kl.dk/ffinst//ValueSet/WHO5AnswerCodesHappy"
+* item[0].answerValueSet = "http://fhir.kl.dk/ffinst/ValueSet/WHO5AnswerCodesHappy"
 * item[0].code =  SCT#285854004 //|Emotion (observable entity)|
 * item[0].repeats = false
 
 * item[1].type = #choice
 * item[1].text = "I de sidste 2 uger har jeg følt mig rolig og afslappet"
 * item[1].linkId = "calm"
-* item[1].answerValueSet = "http://fhir.kl.dk/ffinst//ValueSet/WHO5AnswerCodesCalm"
+* item[1].answerValueSet = "http://fhir.kl.dk/ffinst/ValueSet/WHO5AnswerCodesCalm"
 * item[1].code = SCT#285854004 //|Emotion (observable entity)|
 * item[1].repeats = false
 
 * item[2].type = #choice
 * item[2].text = "I de sidste 2 uger har jeg følt mig aktiv og energisk"
 * item[2].linkId = "active"
-* item[2].answerValueSet = "http://fhir.kl.dk/ffinst//ValueSet/WHO5AnswerCodesActive"
+* item[2].answerValueSet = "http://fhir.kl.dk/ffinst/ValueSet/WHO5AnswerCodesActive"
 * item[2].code =  SCT#406202006 //"Træk vedr. energi"
 * item[2].repeats = false
 
 * item[3].type = #choice
 * item[3].text = "I de sidste 2 uger er jeg vågnet frisk og udhvilet"
 * item[3].linkId = "rested"
-* item[3].answerValueSet = "http://fhir.kl.dk/ffinst//ValueSet/WHO5AnswerCodesRested"
+* item[3].answerValueSet = "http://fhir.kl.dk/ffinst/ValueSet/WHO5AnswerCodesRested"
 * item[3].code =  SCT#404949004 //"Hvilemønster"
 * item[3].repeats = false
 
 * item[4].type = #choice
 * item[4].text = "I de sidste 2 uger har min dagligdag været fyldt med ting der interesserer mig"
 * item[4].linkId = "interest"
-* item[4].answerValueSet = "http://fhir.kl.dk/ffinst//ValueSet/WHO5AnswerCodesInterest"
+* item[4].answerValueSet = "http://fhir.kl.dk/ffinst/ValueSet/WHO5AnswerCodesInterest"
 * item[4].code =  SCT#247752005 //"Interesseniveau"
 * item[4].repeats = false
 
@@ -52,7 +52,7 @@ InstanceOf: KLToolsQuestionnaireResponse
 Usage: #example
 Title: "WHO-5AnswersMark"
 Description: "WHO-5 besvarelse Mark"
-* questionnaire = "http://fhir.kl.dk/ffinst//Questionnaire/KLToolsCareWHO5"
+* questionnaire = "http://fhir.kl.dk/ffinst/Questionnaire/KLToolsCareWHO5"
 * status = #completed
 * subject = Reference(Mark)
 * author = Reference(AbrahamFraAkutSygeplejen)
