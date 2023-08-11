@@ -4,10 +4,10 @@ Description: "Extension for pointing to who the source of information is"
 * value[x] 1..1
 * value[x] only CodeableConcept
 * value[x] from FindingInformerCodes
-* ^context.type[0] = http://hl7.org/fhir/extension-context-type#element
-* ^context.expression[0] = "Observation"
-* ^context.type[1] = http://hl7.org/fhir/extension-context-type#element
-* ^context.expression[1] = "QuestionnaireResponse"
+* ^context[0].type = http://hl7.org/fhir/extension-context-type#element
+* ^context[0].expression = "Observation"
+* ^context[1].type = http://hl7.org/fhir/extension-context-type#element
+* ^context[1].expression = "QuestionnaireResponse"
 
 Extension: AssociatedConditions
 Title: "AssociatedConditions"
@@ -24,7 +24,7 @@ Description: "Extension for pointing to the techniqe used to obtain the result o
 * value[x] 1..1
 * value[x] only CodeableConcept
 * value[x] from KLtechniquesCodes
-* ^context.type[0] = http://hl7.org/fhir/extension-context-type#element
-* ^context.expression[0] = "Observation"
-* ^context.type[1] = http://hl7.org/fhir/extension-context-type#element
-* ^context.expression[1] = "QuestionnaireResponse"
+* ^context[0].type = http://hl7.org/fhir/extension-context-type#element
+* ^context[0].expression = "Observation"
+* ^context[1].type = http://hl7.org/fhir/extension-context-type#element
+* ^context[1].expression = "QuestionnaireResponse"
