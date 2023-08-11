@@ -1,3 +1,3 @@
-Initial release of FKI/KLCore
+Initial release of FFInst
 
-This is the same content as earlier released as dk.fhir.ig.kl.common.caresocial#0.7.0 with cannonical http://kl.dk/fhir/common/caresocial/. However, canonical and pacjkage id have changed to accomodate new naming conventions. Additionally, this version inherit its terminologi from KLTerm rather than maintaining its own CodeSystems and ValueSets.
+This is the initial release of FFInst. It contains FHIR profiles and documentation relating to questionaires and observations, specified by Local Government Denmark. These first observations and questionnaires are the most commonly used in municipality disease prevention and health promotion. However, they are so general in their scope with e.g. vital signs and WHO5 quesuionnaire that they can be used in other areas as well. 
