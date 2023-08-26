@@ -7,7 +7,7 @@ canonical: http://fhir.kl.dk/ffinst
 name: KLFFinst
 title: "Implementation Guide for fælles faglige instrumenter (FFInst)"
 description: Danish municipalities implementation guide for FFInst
-status: active
+status: active # draft # active
 version: 1.0.0
 fhirVersion: 4.0.1
 dependencies:
@@ -17,8 +17,8 @@ dependencies:
   kl.dk.fhir.core: 1.2.0
   kl.dk.fhir.term: 1.0.0
 copyrightYear: 2020+
-releaseLabel: ci-build
-date: 2023-08-08
+releaseLabel: release # ci-build # release
+
 
 publisher:
   name: Kommunernes landsforening
